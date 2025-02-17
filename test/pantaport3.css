@@ -1,4 +1,4 @@
-/*basic style*/
+ection63/*basic style*/
 *{margin:0; padding:0;}
 html{overflow-x:hidden;}
 ul{list-style:none;}
@@ -10,20 +10,24 @@ body, html{
     box-sizing: border-box;
     width: 100%;
     height: auto;
+    margin:0;
    
     
  }
  body{
     overflow:hidden;
  }
- 
+ .tit,.txt{display:none;}
  @media screen and (min-width:1023px){
+.mobile_img1{
+    width:4vw;
+}
 
-   
-
-
-
-    .desk-top,.text444,.video-background3{display:none;}
+.desk_top{
+    height: 5vw;
+    background:#fff;
+}
+ .text444,.video-background3,text-container{display:none;}
 /*layout style*/
 .mWrap{
     position: relative;
@@ -151,7 +155,9 @@ body, html{
     left: 0;
     width: 100%;
    
-    z-index: -1;  
+    z-index: 
+    
+    1;  
 }
 
 .video-background video {
@@ -175,9 +181,38 @@ body, html{
 }
 
 
+/*test intro*/
+
+.test_intro{
+    background:linear-gradient(45deg, #ff0000, #4b00ff);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    height: 100vh;
+}
 
 
+.test {
+    font-size: 3.5rem;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    margin: 10px 0;
+    font-weight: 500;
+    
+  
+  }
 
+.parallax__item__test3{
+    margin-left:12vw;
+   
+    }
+
+
+  .show {
+    opacity: 1;
+  }
 /*펜타포트 글씨 확장*/
 
 #parallax__cont3 {
@@ -189,7 +224,7 @@ body, html{
     position: relative;
     display: flex;
     align-items: center;
-   
+   margin-top:5vw;
 }
 
 #section63 .parallax__item__text3 {
@@ -727,7 +762,7 @@ body, html{
 }
 
 .rotating-image1{
-    width: 2vw;  
+    width: 4vw;  
     animation: rotate 2s linear infinite; 
   
     margin-left: 2vw; 
@@ -926,25 +961,25 @@ body, html{
 
 
 #section12  .i13 {
-    background-image: url(img2/panta04.jpg);
+    background-image: url(../test/img2/panta04.jpg);
 }
 #section12  .i23 {
-    background-image: url(img2/panta05.jpg);
+    background-image: url(../test/img2/panta05.jpg);
 }
 
 #section12  .i33 {
-    background-image: url(img2/panta06.jpg);
+    background-image: url(../test/img2/panta06.jpg);
 }
 
 #section12  .i43 {
-    background-image: url(img2/panta07.heic);
+    background-image: url(../test/img2/panta07.heic);
 }
 
 #section12  .i53 {
-    background-image: url(img2/panta08.heic);
+    background-image: url(../test/img2/panta08.heic);
 }
 #section12  .i63 {
-    background-image: url(img2/pnata10.jpg);
+    background-image: url(../test/img2/pnata10.jpg);
 }
 
 
@@ -1159,7 +1194,7 @@ footer {
     font-size: 0.9rem;
 }
 
-
+#text444{display:none;}
 .footer-bottom {
     text-align: center;
     padding: 20px;
@@ -1298,6 +1333,8 @@ footer {
 
 .panta_top,.panta_bottom{
     display:flex;
+    gap:1vw;
+    margin-top:0.8vw;
 
 }
 .panta_video_02{
@@ -1482,8 +1519,20 @@ footer {
 .video-background2{
     display:none;
 }
-.mobile_top,.mobile_nav,.video-backgroune2,.panta_video2,.parallax__item91,.text_1,.text0{
+.mobile_top,.mobile_nav,.video-backgroune2,.panta_video2,.parallax__item91,.text_1,.text0,.test-container{
     display: none;
+}
+
+
+.fixed-footer{
+    height: 2vw;
+    background:#580101;/*linear-gradient(45deg, #e69595, #4b00ff);*/
+    
+}
+.fixed-footer p{
+    color:#fff;
+    margin:0;
+    line-height: 1.8vw;
 }
 }
 
@@ -1491,6 +1540,26 @@ footer {
 
 @media screen and  (min-width:768px) and (max-width:1022px){
     /*layout style*/
+    .test_intro{
+        background:linear-gradient(45deg, #ff0000, #4b00ff);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        height: 100vh;
+    }
+    
+    
+    .test {
+        font-size: 2rem;
+        color: #ffffff;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        margin: 10px 0;
+        font-weight: 500;
+        
+      
+      }
      #text444{
         display:none;
      }
@@ -1519,6 +1588,7 @@ footer {
        .mobile_top{
            background:#000;
            margin:0 auto;
+           
        }
        
     .mobile_top,.mobile_nav,.video-backgroune2,.panta_video2 {
@@ -1689,7 +1759,11 @@ footer {
         display: flex;
         align-items: center;
         display:none;
+        
        
+    }
+    .parallax__item__test3{
+        margin-left:10vw;
     }
     
     #section63 .parallax__item__text3 {
@@ -2433,28 +2507,34 @@ footer {
     
     
     #section12  .i13 {
-        background-image: url(img2/panta04.jpg);
+        background-image: url(../test/img2/panta04.jpg);
     }
     #section12  .i23 {
-        background-image: url(img2/panta05.jpg);
+        background-image: url(../test/img2/panta05.jpg);
     }
     
     #section12  .i33 {
-        background-image: url(img2/panta06.jpg);
+        background-image: url(../test/img2/panta06.jpg);
     }
     
     #section12  .i43 {
-        background-image: url(img2/panta07.heic);
+        background-image: url(../test/img2/panta07.heic);
     }
     
     #section12  .i53 {
-        background-image: url(img2/panta08.heic);
+        background-image: url(../test/img2/panta08.heic);
     }
     #section12  .i63 {
-        background-image: url(img2/pnata10.jpg);
+        background-image: url(../test/img2/pnata10.jpg);
     }
     
-    
+      
+    #section12 
+     
+     
+     {
+        background-color: #ffb400;
+    }
     
     
     
@@ -2462,13 +2542,7 @@ footer {
       #parallax__cont3 {
         overflow: hidden;
     }
-    
-    #section12 
-     
-     
-     {
-        background-color: #ffb400;
-    }
+  
     .parallax__item__num3 {
         position: absolute;
         right: 20px;
@@ -2882,7 +2956,7 @@ footer {
     }
     .section99_type{
         position: absolute;
-        top: -1vw;
+        top: -4.4vw;
         left: 135%;
     
     }
@@ -3005,6 +3079,7 @@ footer {
         display:none;
     }
     .parallax{display:none;}
+    .test-container{display:none;}
     
 
 
@@ -3037,7 +3112,34 @@ footer {
             opacity: 1;
           }
     
-
+          .test_intro{
+            background:linear-gradient(45deg, #ff0000, #4b00ff);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            flex-direction:column;
+            height: 100vh;
+        }
+        
+        
+        .test {
+            font-size: 1rem;
+            color: #ffffff;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            margin: 10px 0;
+            font-weight: 500;
+            
+          
+          }
+        
+        .parallax__item__test3{
+            margin-left:12vw;
+        }
+        
+          .show {
+            opacity: 1;
+          }
           #text222{
             font-size: 2.5rem;
             color:#fff;
@@ -3070,12 +3172,14 @@ footer {
 }
 .mobile_img{
     width:2vw;
-    margin-top: 8.5vw;
-    margin-right: 1vw;;
+  
+    margin-right: 1vw;
 }
 .mobile_top{
-    background:#000;
+    background: linear-gradient(45deg, #ff00b1, #7c00d9);
     margin:0 auto;
+    display:flex;
+    padding:1.5vw;
 }
 
 
@@ -3785,7 +3889,7 @@ footer {
             object-fit: cover; 
         }
         .slide video{
-            width: 35vw;
+            width: 58vw;
             margin-top: 64.5vw;
         }
         
@@ -3843,25 +3947,25 @@ footer {
         
         
         #section12  .i13 {
-            background-image: url(img2/panta04.jpg);
+            background-image: url(../test/img2/panta04.jpg);
         }
         #section12  .i23 {
-            background-image: url(img2/panta05.jpg);
+            background-image: url(../test/img2/panta05.jpg);
         }
         
         #section12  .i33 {
-            background-image: url(img2/panta06.jpg);
+            background-image: url(../test/img2/panta06.jpg);
         }
         
         #section12  .i43 {
-            background-image: url(img2/panta07.heic);
+            background-image: url(../test/img2/panta07.heic);
         }
         
         #section12  .i53 {
-            background-image: url(img2/panta08.heic);
+            background-image: url(../test/img2/panta08.heic);
         }
         #section12  .i63 {
-            background-image: url(img2/pnata10.jpg);
+            background-image: url(../test/img2/pnata10.jpg);
         }
         
         
@@ -4066,14 +4170,14 @@ footer {
         
         .footer-social ul {
             display: flex;
-            gap: 15px;
+            gap: 5px;
             justify-content: center;
             margin-top: 4vw;
         }
         
         .footer-social ul li a {
             display: inline-block;
-            padding: 2px;
+         
             border-radius: 50%;
             background-color: #333;
             transition: background-color 0.3s;
@@ -4087,16 +4191,13 @@ footer {
         .footer-contact ul li {
             font-size: 0.7rem;
         }
-        .footer-contact{
-            margin-top: 4vw;
-}
-        
+
         
         .footer-bottom {
             text-align: center;
             padding: 1vw;
             background-color: #333;
-            margin-top: 5vw;
+      
         }
         
         .fixed-footer p {
@@ -4298,11 +4399,11 @@ footer {
         }
         
         .menu-button {
-            width: 25%;
+            width: 32%;
             height: 98%;
             background-color: #ff0000;
             border-radius: 5px;
-            margin-left: 3.5vw;
+            margin-left: 2.5vw;
         
         }
         
@@ -4399,6 +4500,7 @@ footer {
         .panta_video_01,.panta_video_02{
             width:93vw;
             margin-left: 1.5vw;
+            margin-top:6vw;
         }
         .parallax__item__num9 img{
             width: 5vw;
