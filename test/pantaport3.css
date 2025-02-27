@@ -1,4 +1,4 @@
-ection63/*basic style*/
+/*basic style*/
 *{margin:0; padding:0;}
 html{overflow-x:hidden;}
 ul{list-style:none;}
@@ -327,6 +327,7 @@ body, html{
     height: 25vw;
     background:#fb0000;
     margin-top:8vw;
+
 }
 .section04_title_2{
     width:70vw;
@@ -356,7 +357,7 @@ body, html{
 
   /* parallax__cont */
 .parallax__item {
-    width: 100%;
+  width: 100vw;
     height: 110vh;
     position: relative;
     display: flex;
@@ -372,9 +373,10 @@ body, html{
     font-weight: 100;
     z-index: 100;
     color:#ffcc00;
-    top:31vw;
-    left:51vw;
-    transform: rotate(-25deg);
+    top: 35vw;
+    left: 39vw;
+    transform: rotate(-22deg);
+
    
    
     
@@ -562,7 +564,7 @@ body, html{
 .setlist_02{
     display:flex;
     flex-direction: column;
-    margin-bottom: 11vw;
+   
     margin-bottom: 5vw;
 
 }
@@ -586,9 +588,9 @@ body, html{
     font-weight: 100;
     z-index: 100;
     color:#ffffff;
-    top:35vw;
-    left:42%;
-    transform: rotate(-25deg);
+    top:60%;
+    left:33%;
+    transform: rotate(-15deg);
 }
 .parallax__item__num2 {
     font-size: 7rem;
@@ -599,9 +601,9 @@ body, html{
     font-weight: 100;
     z-index: 100;
     color:#020202;
-    top:35vw;
-    left:38%;
-    transform: rotate(-25deg);
+    top:60%;
+    left:45%;
+    transform: rotate(-15deg);
 }
 .parallax__item__num3 {
     font-size: 7rem;
@@ -612,9 +614,9 @@ body, html{
     font-weight: 100;
     z-index: 100;
     color:#ff0000;
-    top:35vw;
-    left:50vw;
-    transform: rotate(-25deg);
+    top:65%;
+    left:47%;
+    transform: rotate(-15deg);
 }
 .parallax__item__num4 {
     font-size: 7rem;
@@ -625,9 +627,9 @@ body, html{
     font-weight: 100;
     z-index: 100;
     color:#dedede;
-    top:35vw;
-    left:50vw;
-    transform: rotate(-25deg);
+    top:60%;
+    left:33%;
+    transform: rotate(-15deg);
 }
 .parallax__item__num5 {
     font-size: 7rem;
@@ -638,9 +640,9 @@ body, html{
     font-weight: 100;
     z-index: 100;
     color:#f0df26;
-    top:35vw;
-    left:50vw;
-    transform: rotate(-25deg);
+    top:65%;
+    left:50%;
+    transform: rotate(-20deg);
 }
 .parallax__item__num6 {
     font-size: 15rem;
@@ -658,22 +660,20 @@ body, html{
 
 
 .parallax__item__imgWrap {
+    position: relative;
     width: 100%;
-    height: 28vw;
-    padding-bottom: 18%;
-    
+    height: 100%;
     overflow: hidden;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 4rem 3rem 10rem;
 }
 .parallax__item__img {
-    position: absolute;
-    left: -5%; 
-    top: -5%;
-    width: 110%;
-    height: 110%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+   
+  
     filter: saturate(0%);
     transition: all 1s;
 }
@@ -685,65 +685,22 @@ body, html{
     background-color:#f9a825;
 }
 #section1 .parallax__item__img {
-   background: url(img2/panta18.jpg);
-   background-size: cover;  
-   
-   background-repeat: no-repeat; 
-   height: 70vh; 
-   width: 60vw;
-   left: 30.7%;
-   top:12%;
+   width: 90%;
+   display: block;
 }
-#section2 .parallax__item__img {
-    background: url(img2/pantakim.png);
-    background-size: cover;  
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 70vh; 
-    width: 60vw;
-    left: 30.8%;
-    top:12%;
+
+
+
+
+#section6 .parallax__item__img,#section55 .parallax__item__img ,#section1 .parallax__item__img,#section2 .parallax__item__img ,#section3 .parallax__item__img,#section4 .parallax__item__img,#section6 .parallax__item__img{
+    width: 75%;
+    display: block;
+    object-fit:contain;
+    vertical-align:bottom;
+    height:auto;
+    max-height:80%;
 }
-#section3 .parallax__item__img {
-    background: url(img2/pantafomantic.jpg);
-    background-size: cover;  
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 70vh; 
-   width: 60vw;
-   left: 30.8%;
-   top:12%;
-}
-#section4 .parallax__item__img {
-    background: url(img2/pantasesoseon.jpg);
-    background-size: cover;  
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 70vh; 
-   width: 60vw;
-   left: 30.8%;
-   top:12%;
-}
-#section55 .parallax__item__img {
-    background-size: cover;  
-    background: url(../img1/lee.jpg);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 70vh; 
-   width: 60vw;
-   left: 30.8%;
-   top:12%;
-}
-#section6 .parallax__item__img {
-    background: url(../img1/jang.jpg);
-    background-size: cover;  
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 70vh; 
-    width: 60vw;
-    left: 30.8%;
-    top:12%;
-}
+
 #section7 .parallax__item__img {
   
     background-size: cover;  
@@ -1378,24 +1335,33 @@ footer {
 
 
 .parallax__item__num9 img{
-    width:4vw;
+    width: 3vw;
+   
+
    
 }
 .section99_type{
-    font-size:3.5rem;
+    font-size: 2.5rem;
     font-weight: 800;
     text-align: justify;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+
 }
 .section99_auto{
     display:flex;
-    margin-left:15vw;
+    margin-left:27vw;
     margin-bottom: 10vw;
     position: relative;
+    
 }
 .section99_type{
     position: absolute;
-    top: -1vw;
+    top: -6vw;
     left: 135%;
+    text-align: center;
+
 
 }
 
@@ -1908,8 +1874,8 @@ footer {
     
       /* parallax__cont */
     .parallax__item {
-        width: 100%;
-        height: 110vh;
+        width: 100vw;
+        height: 100vh;
         position: relative;
         display: flex;
         align-items: center;
@@ -1924,9 +1890,9 @@ footer {
         font-weight: 100;
         z-index: 100;
         color:#ffcc00;
-        top: 56vw;
-        left: 57vw;
-        transform: rotate(-25deg);
+        top: 82%;
+        left: 59%;
+        transform: rotate(-16deg);
        
        
         
@@ -1946,13 +1912,13 @@ footer {
         text-align: left;
         margin-left: 5vw;
         gap: 0.5vw;
-        margin-bottom: 7vw;
+       
        
         
     }
     .parallax__item__num1111 {
        
-        width: 18vw;
+        width: 30vw;
         right: 20px;
         bottom: 20px;
         display:flex;
@@ -1965,7 +1931,7 @@ footer {
         text-align: left;
         margin-left: 5vw;
         gap: 0.5vw;
-        margin-bottom: 7vw;
+      
        
         
     }
@@ -2108,16 +2074,14 @@ footer {
     .setlist_01{
         display:flex;
         flex-direction: column;
-        margin-bottom: 11vw;
-        margin-bottom: 5vw;
+        
     
     }
     
     .setlist_02{
         display:flex;
         flex-direction: column;
-        margin-bottom: 11vw;
-        margin-bottom: 5vw;
+        
     
     }
     .setlist_11{
@@ -2145,9 +2109,9 @@ footer {
         font-weight: 100;
         z-index: 100;
         color:#ffffff;
-        top: 56vw;
-        left: 48%;
-        transform: rotate(-25deg);
+        top: 80%;
+        left: 58%;
+        transform: rotate(-14deg);
     }
     .parallax__item__num2 {
         font-size: 3rem;
@@ -2158,9 +2122,9 @@ footer {
         font-weight: 100;
         z-index: 100;
         color:#b50000;
-        top: 56vw;
-        left: 38%;
-        transform: rotate(-17deg);
+        top: 80%;
+        left: 46%;
+        transform: rotate(-19deg);
     }
     .parallax__item__num3 {
         font-size: 3rem;
@@ -2171,10 +2135,12 @@ footer {
         font-weight: 100;
         z-index: 100;
         color:#ff0000;
-        top:56vw;
-        left:50vw;
-        transform: rotate(-25deg);
+        top: 77%;
+        left: 51%;
+        transform: rotate(-18deg);
     }
+
+   
     .parallax__item__num4 {
         font-size: 3rem;
         position: absolute;
@@ -2184,9 +2150,9 @@ footer {
         font-weight: 100;
         z-index: 100;
         color:#dedede;
-        top:56vw;
-        left:50vw;
-        transform: rotate(-25deg);
+        top: 81%;
+        left: 46%;
+        transform: rotate(-14deg);
     }
     .parallax__item__num5 {
         font-size: 3rem;
@@ -2197,9 +2163,9 @@ footer {
         font-weight: 100;
         z-index: 100;
         color:#f0df26;
-        top: 56vw;
-        left: 52vw;
-        transform: rotate(-25deg);
+        top: 78%;
+        left: 56%;
+        transform: rotate(-16deg);
     }
     .parallax__item__num6 {
         font-size: 8rem;
@@ -2220,7 +2186,7 @@ footer {
         width: 100%;
         height: 28vw;
         padding-bottom: 18%;
-        
+        position: relative;
         overflow: hidden;
         border-radius: 10px;
     }
@@ -2244,63 +2210,63 @@ footer {
         background-color:#f9a825;
     }
     #section1 .parallax__item__img {
-       background: url(img2/panta18.jpg);
+    
        background-size: cover;  
        
        background-repeat: no-repeat; 
        height: 70vh; 
        width: 60vw;
-       left: 30.7%;
+      
        top:12%;
     }
     #section2 .parallax__item__img {
-        background: url(img2/pantakim.png);
+       
         background-size: cover;  
         background-position: center; 
         background-repeat: no-repeat; 
         height: 70vh; 
         width: 60vw;
-        left: 30.8%;
+      
         top:12%;
     }
     #section3 .parallax__item__img {
-        background: url(img2/pantafomantic.jpg);
+       
         background-size: cover;  
         background-position: center; 
         background-repeat: no-repeat; 
         height: 70vh; 
        width: 60vw;
-       left: 30.8%;
+     
        top:12%;
     }
     #section4 .parallax__item__img {
-        background: url(img2/pantasesoseon.jpg);
+        
         background-size: cover;  
         background-position: center; 
         background-repeat: no-repeat; 
         height: 70vh; 
        width: 60vw;
-       left: 30.2%;
+     
        top:12%;
     }
     #section55 .parallax__item__img {
-        background: url(../img1/lee.jpg);
+      
         background-size: cover;  
         background-position: center; 
         background-repeat: no-repeat; 
         height: 70vh; 
        width: 60vw;
-       left: 30.8%;
+       
        top:12%;
     }
     #section6 .parallax__item__img {
-        background: url(../img1/jang.jpg);
+        
         background-size: cover;  
         background-position: center; 
         background-repeat: no-repeat; 
         height: 70vh; 
         width: 60vw;
-        left: 30.8%;
+        
         top:12%;
     }
     #section7 .parallax__item__img {
@@ -2553,13 +2519,7 @@ footer {
         overflow: hidden;
     }
   
-    .parallax__item__num3 {
-        position: absolute;
-        right: 20px;
-        bottom: 20px;
-        font-size: 5vw;
-        line-height: 1;
-    }
+ 
     .parallax__item__img3 {
         width: 17vw;
         height: 20vw;
@@ -2967,10 +2927,13 @@ footer {
        
     }
     .section99_type{
-        font-size:2.3rem;
+     
+        font-size: 1.4rem;
         font-weight: 800;
         text-align: justify;
+        margin-top: 7vw;
     }
+    
     .section99_auto{
         display:flex;
         margin-left:15vw;
@@ -2980,7 +2943,7 @@ footer {
     .section99_type{
         position: absolute;
         top: -4.4vw;
-        left: 135%;
+        left: 254%;
     
     }
     
@@ -3357,7 +3320,7 @@ footer {
           /* parallax__cont */
         .parallax__item {
             width: 100%;
-            height: 110vh;
+            height: 100vh;
             position: relative;
             display: flex;
             align-items: center;
@@ -3372,10 +3335,9 @@ footer {
             font-weight: 100;
             z-index: 100;
             color:#ffcc00;
-            top: 131vw;
-            left: 15vw;
-            transform: rotate(-25deg);
-           
+            top: 69%;
+        left: 7%;
+            
            
             
         }
@@ -3611,9 +3573,9 @@ footer {
             font-weight: 100;
             z-index: 100;
             color:#ffffff;
-            top: 131vw;
-        left: 12%;
-            transform: rotate(-25deg);
+            top: 68%;
+            left: 6%;
+           
         }
         .parallax__item__num2 {
             font-size: 3rem;
@@ -3625,9 +3587,9 @@ footer {
           
             z-index: 100;
             color:#b50000;
-            top: 134vw;
-            left: 10%;
-            transform: rotate(-17deg);
+            top: 71%;
+            left: 7%;
+       
         }
         .parallax__item__num3 {
             font-size: 3rem;
@@ -3638,9 +3600,9 @@ footer {
             font-weight: 100;
             z-index: 100;
             color:#ff0000;
-            top: 125vw;
-        left: 13vw;
-            transform: rotate(-25deg);
+            top: 71%;
+            left: 6%;
+            
         }
         .parallax__item__num4 {
             font-size: 2.2rem;
@@ -3652,9 +3614,9 @@ footer {
             z-index: 100;
             color:#dedede;
           
-            top: 131vw;
-            left: 12vw;
-            transform: rotate(-16deg);
+            top: 72%;
+            left: 6%;
+           
         
         }
         .parallax__item__num5 {
@@ -3666,9 +3628,9 @@ footer {
             font-weight: 100;
             z-index: 100;
             color:#f0df26;
-            top: 131vw;
-        left: 15vw;
-            transform: rotate(-25deg);
+            top: 68%;
+            left: 8%;
+            
         }
         .parallax__item__num6 {
             font-size: 3rem;
@@ -4388,12 +4350,12 @@ footer {
         .parallax__item__num91 img{
             width: 8.2vw;
             height: 8.6vw;
-            margin-top: 10.1vw;
+            margin-top: 2.6vw;
         margin-right: 1.5vw;
     
         }
         .parallax__item__num91 p{
-            font-size: 3.3rem;
+            font-size: 2.3rem;
             color:#000;
             font-weight: 700;
         }

@@ -6,14 +6,14 @@
     <title>Document</title>
     <script src="js/jquery-1.9.1.min.js"></script>
     <style>
-        /* Basic reset */
+     
 
         @media screen and (min-width:1023px){
         * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
 
 
 .loading-container {
@@ -32,7 +32,7 @@
     animation: rotate 2s linear infinite;
 }
 
-/* Rotation animation */ 
+
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
@@ -123,20 +123,13 @@
         <a href=" "><img src="../img/logospin.png" alt="Loading" class="loading-image"></a>
     </div>
 </body>
-<script>    
-  
-
+<script>   
         window.onload = function() {
-            // Set a timeout for the loading page duration
             setTimeout(function() {
-                // Hide the loading screen
                 document.querySelector('.loading-container').style.display = 'none';
-                
-                // Redirect to another page (you can replace 'nextpage.html' with your target URL)
-                window.location.href = 'index.html'; // Redirect to the next page
-            }, 4000);  // Adjust this time to match your loading screen duration (in milliseconds)
+                window.location.href = 'index.html'; 
+            }, 4000); 
         };
-        
 </script>
 
 </script>
