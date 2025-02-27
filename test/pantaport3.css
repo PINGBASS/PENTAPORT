@@ -725,8 +725,8 @@ body, html{
    top:12%;
 }
 #section55 .parallax__item__img {
-    background: url(../img1/lee.jpg);
     background-size: cover;  
+    background: url(../img1/lee.jpg) !important;
     background-position: center; 
     background-repeat: no-repeat; 
     height: 70vh; 
