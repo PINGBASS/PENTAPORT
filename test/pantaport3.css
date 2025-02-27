@@ -381,7 +381,7 @@ body, html{
 }
 .parallax__item__num111 {
     font-size: 2rem;
-    
+    width: 12vw;
     right: 20px;
     bottom: 20px;
     display:flex;
@@ -725,7 +725,7 @@ body, html{
    top:12%;
 }
 #section55 .parallax__item__img {
-    background: url(../img1/lee.jpg_large);
+    background: url(../img1/lee.jpg);
     background-size: cover;  
     background-position: center; 
     background-repeat: no-repeat; 
@@ -2286,7 +2286,7 @@ footer {
        top:12%;
     }
     #section55 .parallax__item__img {
-        background: url(../img1/lee.jpg_large);
+        background: url(../img1/lee.jpg);
         background-size: cover;  
         background-position: center; 
         background-repeat: no-repeat; 
@@ -3750,7 +3750,7 @@ footer {
            top:12%;
         }
         #section55 .parallax__item__img {
-            background: url(../img1/lee.jpg_large);
+            background: url(../img1/lee.jpg);
             background-size: cover;  
             background-position: center; 
             background-repeat: no-repeat; 
@@ -4235,6 +4235,7 @@ footer {
             margin: 0;
             font-size: 0.6rem;
             background:#ff0000;
+            text-align: center;
         }
         .footer-bottom p{
             font-size: 0.8rem;
@@ -4389,10 +4390,10 @@ footer {
             display:none;
         }
         .parallax__item__num91 img{
-            width: 4vw;
-        height: 4.3vw;
-        margin-top: 1vw;
-    margin-right: 0.5vw;
+            width: 4.2vw;
+        height: 4.6vw;
+        margin-top: 6.4vw;
+        margin-right: 0.5vw;
         }
         .parallax__item__num91 p{
             font-size: 1.3rem;
@@ -4401,11 +4402,11 @@ footer {
         }
         #section991{
             width:100%;
-            height: 50vw;
+            height: 65vw;
         }
         .parallax__item__num91{
             display:flex;
-            margin-top: 34vw;
+            margin-top: 35vw;
             justify-content: center;
         }
      
