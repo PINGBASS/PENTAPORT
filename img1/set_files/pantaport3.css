@@ -1,0 +1,4461 @@
+/*basic style*/
+*{margin:0; padding:0;}
+html{overflow-x:hidden;}
+ul{list-style:none;}
+li{list-style: none;}
+a{text-decoration:none;}
+body, html{
+    font-family: 'SUITE-Regular';
+    font-weight: 800;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+   
+    
+ }
+ body{
+    overflow:hidden;
+ }
+ 
+ @media screen and (min-width:1023px){
+
+   
+
+
+
+    .desk-top,.text444,.video-background3{display:none;}
+/*layout style*/
+.mWrap{
+    position: relative;
+    width:100%;
+    min-height: 100%;
+    text-align: center;
+}
+.parallax{
+    position: relative;
+    width:1900px;
+    height: 1400px;/*1200*3*/
+    margin:0 auto;
+}
+.mSection01,
+.mSection02,
+.mSection03{
+    position: absolute;
+    left:50%;
+    width:1900px;
+    height: 1200px;
+    margin-left:-950px;
+    /*border:1px solid green;*/
+    overflow:hidden;
+}
+.mSection01{
+    top:0;
+   
+    background-size: 100% 1200px;
+}
+.mSection02{
+    top:1200px;
+    background: url(images/bg_main02.jpg)no-repeat 0 0;
+    background-size: 100% 1200px;
+}
+.mSection03{
+    top:2400px;
+    background: url(images/bg_main03.jpg)no-repeat 0 0;
+    background-size: 100% 1200px;
+}
+.mSection01>*,
+.mSection02>*,
+.mSection03>*{position: absolute;}
+
+/*mSection01 style*/
+.mSection01 .arrow{
+    left:300px;
+    top:10px;
+    width:49px;
+    height: 56px;
+    z-index: 500;
+}
+.mSection01 .tit{
+    left:291px;
+    top:200px;
+    z-index: 400;
+}
+.mSection01 .txt{
+    left:297px;
+    top:390px;
+    z-index: 400;
+}
+.mSection01 .obj01{
+    left:117px;
+    top:0px;
+    width:10vw;
+    height: 10vw;
+  
+    z-index: 300;
+}
+.mSection01 .obj02{
+    left:729px;
+    top:363px;
+    width: 10vw;
+    height: 10vw;
+   
+    z-index: 300;
+}
+.mSection01 .obj03{
+    left:909px;
+    top:452px;
+    width: 12vw;
+    height: 12vw;
+  
+    z-index: 300;
+}
+.mSection01 .obj04{
+    left:1121px;
+    top:576px;
+    width: 54px;
+    height: 67px;
+   /* background: url(../img1/PENTAPORTimg2.png)no-repeat;*/
+    z-index: 300;
+}
+.mSection01 .obj05{
+    left:1191px;
+    top:591px;
+    width: 41px;
+    height: 34px;
+   /* background: url(../img1/PENTAPORTimg2.png)no-repeat;*/
+    z-index: 300;
+}
+.mSection01 .obj06{
+    left:1238px;
+    top:389px;
+    width: 405px;
+    height: 315px;
+   /* background: url(../img1/PENTAPORTimg2.png)no-repeat;*/
+    z-index: 300;
+}
+
+
+.mSection01 {
+    position: relative;
+    width: 100%;
+    height: 1200px;  
+    overflow: hidden; 
+}
+.mSection01{
+    background: #000;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+    z-index: -1;  
+}
+
+.video-background video {
+    width: 100%;  
+    object-fit: cover; 
+}
+.video-background img{
+    width:1.8vw;
+    margin-right: 2vw;
+}
+.background_type{
+    margin-top:2vw;
+    
+}
+.content {
+    position: relative;
+    z-index: 1;  
+    color: white;  
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+/*펜타포트 글씨 확장*/
+
+#parallax__cont3 {
+    overflow: hidden;
+}
+.parallax__item3 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+}
+
+#section63 .parallax__item__text3 {
+    font-size: 5vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 6vw;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    color:#594141;
+}
+.parallax__item__text3 img{
+    width:4vw;
+}
+
+
+#section63 {
+    background-color: #ffb400; /*#e1c4c4;*/  
+    background: linear-gradient(45deg, #ff0000, #4b00ff);
+
+    /*        background: linear-gradient(45deg, #ff0000, #4b00ff);*/
+}
+
+.music_color{
+    color:#ff6c00;/*#ff0000;*/
+    font-weight: 900;
+    font-size: 8rem;
+    
+    
+}
+.music_color_1{
+    color:#ffa700;/*#564c39;*/
+    font-weight: 600;
+    font-size: 6rem;
+    
+    
+    
+}
+.music_color_2{
+    color:#564c39;
+    font-weight: 600;
+    font-size: 6rem;
+    
+    
+}
+.music_color_3{
+    color:#f9bf52;/*#564c39;*/
+    font-weight: 600;
+    font-size: 6rem;
+    
+}
+.music_color_01{
+    color:#e1c4c4;
+}
+
+
+
+/*펜타포트 스크롤링*/
+
+
+.scrolling-container {
+    width: 100%;
+    height: 6.5vw;
+    overflow: hidden;
+    background: #000;
+}
+
+.scrolling-text {
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 900;
+    white-space: nowrap;
+    display: inline-block;
+    /* 애니메이션을 바로 시작 */
+    animation: scroll-left 25s linear infinite;
+    font-family: "continuous";
+    font-weight: 100;
+    letter-spacing:0.5vw;
+    line-height: 8vw;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);  /* 글씨가 화면 밖에서 시작 */
+    }
+    100% {
+        transform: translateX(-100%); /* 글씨가 화면 밖으로 나가도록 */
+    }
+}
+
+
+
+/*section04 세계적인 음악축제*/
+.section04_title_1{
+    width:70vw;
+    height: 25vw;
+    background:#fb0000;
+    margin-top:8vw;
+}
+.section04_title_2{
+    width:70vw;
+    height: 25vw;
+    background:#000000;
+    top:20vw;
+    margin-left: 35vw;
+    margin-top:10vw;
+    margin-bottom: 10vw;
+}
+.section04_type1{
+  color:#fff;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: end;
+}
+
+
+.section04_type2{
+    color:#fff;
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+
+
+
+  /* parallax__cont */
+.parallax__item {
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parallax__item__num {
+    font-size: 7rem;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-family: "continuous";
+    font-weight: 100;
+    z-index: 100;
+    color:#ffcc00;
+    top:31vw;
+    left:51vw;
+    transform: rotate(-25deg);
+   
+   
+    
+}
+.parallax__item__num111 {
+    font-size: 2rem;
+    
+    right: 20px;
+    bottom: 20px;
+    display:flex;
+    font-weight: 100;
+    z-index: 100;
+    color:#ffcc00;
+    top:7vw;
+    left:6vw;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5vw;
+    gap: 0.5vw;
+    margin-bottom: 7vw;
+   
+    
+}
+.parallax__item__num1111 {
+    font-size: 2rem;
+    
+    right: 20px;
+    bottom: 20px;
+    display:flex;
+    font-weight: 100;
+    z-index: 100;
+    color:#ffcc00;
+    top:7vw;
+    left:6vw;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5vw;
+    gap: 0.5vw;
+    margin-bottom: 7vw;
+   
+    
+}
+.setlist{
+    margin-left:6vw;
+    
+}
+.setlist1{
+    margin-left: 6vw;
+    margin-top: 1.5vw;
+    animation: changeColor 5s infinite; 
+    transition: opacity 2s ease-in-out; 
+
+}
+.setlist_1{
+    margin-left:6vw;
+    
+}
+.setlist_11{
+    margin-left: 6vw;
+    margin-top: 1.5vw;
+    animation: changeColor 5s infinite; 
+    transition: opacity 2s ease-in-out; 
+
+}
+@keyframes changeColor {
+      0% {
+        opacity: 1;
+      }
+      5% {
+        opacity: 1;
+        content: url('../img/setlist.png');
+      }
+      10% {
+        opacity: 1;
+        content: url('../img/setlist1.png');
+      }
+      15% {
+        opacity: 1;
+        content: url('../img/setlist2.png'); 
+      }
+      20% {
+        opacity: 1;
+        content: url('../img/setlist3.png'); 
+      }
+      25% {
+        opacity: 1;
+        content: url('../img/setlist2.png'); 
+      }
+      30% {
+        opacity: 1;
+        content: url('../img/setlist.png');
+      }
+      35% {
+        opacity: 1;
+        content: url('../img/setlist1.png');
+      }
+      40% {
+        opacity: 1;
+        content: url('../img/setlist2.png'); 
+      }
+      45% {
+        opacity: 1;
+        content: url('../img/setlist3.png'); 
+      }
+      50% {
+        opacity: 1;
+        content: url('../img/setlist2.png'); 
+      }
+      55% {
+        opacity: 1;
+        content: url('../img/setlist.png');
+      }
+      60% {
+        opacity: 1;
+        content: url('../img/setlist1.png');
+      }
+      65% {
+        opacity: 1;
+        content: url('../img/setlist2.png'); 
+      }
+      70% {
+        opacity: 1;
+        content: url('../img/setlist3.png'); 
+      }
+      75% {
+        opacity: 1;
+        content: url('../img/setlist2.png'); 
+      }
+      80% {
+        opacity: 1;
+        content: url('../img/setlist.png');
+      }
+      85% {
+        opacity: 1;
+        content: url('../img/setlist1.png');
+      }
+      90% {
+        opacity: 1;
+        content: url('../img/setlist2.png'); 
+      }
+      95% {
+        opacity: 1;
+        content: url('../img/setlist3.png'); 
+      }
+      0% {
+        opacity: 1;
+        content: url('../img/setlist2.png'); 
+      }
+      
+      
+     
+     
+    }
+
+.parallax__item__num111 img{
+    width: 2vw;
+}
+.parallax__item__num111 a{
+    font-size: 0.9rem;
+    color:#fff;
+    margin-left:2vw;
+    font-weight: 400;
+    margin-top: 0.2vw;
+    
+}
+.parallax__item__num1111 img{
+    width: 2vw;
+}
+.parallax__item__num1111 a{
+    font-size: 1rem;
+    color:#fff;
+    margin-left:2vw;
+    font-weight: 400;
+    margin-top: 0.2vw;
+    
+}
+.setlist_01{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 11vw;
+    margin-bottom: 5vw;
+
+}
+
+.setlist_02{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 11vw;
+    margin-bottom: 5vw;
+
+}
+
+
+
+.baekyurin{
+    display:flex;
+
+}
+.baekyurin1{
+    display:flex;
+
+}
+.parallax__item__num1 {
+    font-size: 7rem;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-family: "continuous";
+    font-weight: 100;
+    z-index: 100;
+    color:#ffffff;
+    top:35vw;
+    left:42%;
+    transform: rotate(-25deg);
+}
+.parallax__item__num2 {
+    font-size: 7rem;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-family: "continuous";
+    font-weight: 100;
+    z-index: 100;
+    color:#020202;
+    top:35vw;
+    left:38%;
+    transform: rotate(-25deg);
+}
+.parallax__item__num3 {
+    font-size: 7rem;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-family: "continuous";
+    font-weight: 100;
+    z-index: 100;
+    color:#ff0000;
+    top:35vw;
+    left:50vw;
+    transform: rotate(-25deg);
+}
+.parallax__item__num4 {
+    font-size: 7rem;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-family: "continuous";
+    font-weight: 100;
+    z-index: 100;
+    color:#dedede;
+    top:35vw;
+    left:50vw;
+    transform: rotate(-25deg);
+}
+.parallax__item__num5 {
+    font-size: 7rem;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-family: "continuous";
+    font-weight: 100;
+    z-index: 100;
+    color:#f0df26;
+    top:35vw;
+    left:50vw;
+    transform: rotate(-25deg);
+}
+.parallax__item__num6 {
+    font-size: 15rem;
+    text-align: center;
+    
+    font-family: "continuous";
+    font-weight: 600;
+  
+    color:#000000;
+   
+    
+}
+
+
+
+
+.parallax__item__imgWrap {
+    width: 100%;
+    height: 28vw;
+    padding-bottom: 18%;
+    
+    overflow: hidden;
+    border-radius: 10px;
+}
+.parallax__item__img {
+    position: absolute;
+    left: -5%; 
+    top: -5%;
+    width: 110%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: saturate(0%);
+    transition: all 1s;
+}
+.parallax__item__img:hover {
+    filter: saturate(100%);
+    transform: scale(1.025);
+}
+#section1{
+    background-color:#f9a825;
+}
+#section1 .parallax__item__img {
+   background: url(img2/panta18.jpg);
+   background-size: cover;  
+   
+   background-repeat: no-repeat; 
+   height: 70vh; 
+   width: 60vw;
+   left: 30.7%;
+   top:12%;
+}
+#section2 .parallax__item__img {
+    background: url(img2/pantakim.png);
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 70vh; 
+    width: 60vw;
+    left: 30.8%;
+    top:12%;
+}
+#section3 .parallax__item__img {
+    background: url(img2/pantafomantic.jpg);
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 70vh; 
+   width: 60vw;
+   left: 30.8%;
+   top:12%;
+}
+#section4 .parallax__item__img {
+    background: url(img2/pantasesoseon.jpg);
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 70vh; 
+   width: 60vw;
+   left: 30.8%;
+   top:12%;
+}
+#section55 .parallax__item__img {
+    background: url(../img1/lee.jpg_large);
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 70vh; 
+   width: 60vw;
+   left: 30.8%;
+   top:12%;
+}
+#section6 .parallax__item__img {
+    background: url(../img1/jang.jpg);
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 70vh; 
+    width: 60vw;
+    left: 30.8%;
+    top:12%;
+}
+#section7 .parallax__item__img {
+  
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width:100%;
+    left:50%;
+    top:50%;
+}
+.rotating-image {
+    width: 150px;  
+    animation: rotate 2s linear infinite; 
+    margin-bottom: 3vw;
+    margin-left: 2vw; 
+}
+
+.rotating-image1{
+    width: 2vw;  
+    animation: rotate 2s linear infinite; 
+  
+    margin-left: 2vw; 
+}
+.rotating-image3{
+    width: 46px;  
+    animation: rotate 2s linear infinite; 
+  
+    
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+.section7_type1{
+    display:flex;
+    align-items: flex-end;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+}
+
+
+
+
+
+
+#section1{
+    background-color:#f92525;   
+}
+#section2{
+    background-color: #ce1a1a;
+}
+#section3{
+    background-color: #f92525; 
+}
+#section4{
+    background-color: #a50000;
+}
+#section55{
+    background-color: #303030;
+}
+#section6{
+    background-color: #ce1a1a;
+}
+
+
+/* option */
+#parallax__cont {
+    overscroll-behavior: none;
+    width: 900%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+
+
+/*자동슬라이드*/
+
+.slider-container {
+    position: relative;
+    width: 100%; 
+    height: 70vw;
+    background:url(../img1/PENTAPORTimg2.png);
+    
+}
+    
+
+
+.slider {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+
+
+/*글씨 세로로 네개 나오기*/
+
+
+.text {
+    font-size: 3.5rem;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    margin: 10px 0;
+    font-weight: 500;
+    
+  
+  }
+
+
+
+  .show {
+    opacity: 1;
+  }
+  .text_intro{
+   
+    background: linear-gradient(45deg, #ff0000, #4b00ff); /* 어두운 회색 그라데이션 */
+    display: flex;
+    flex-direction: column; /* 세로로 정렬 */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+  }
+  .text_intro_type{
+    
+  }
+  .star{
+    color:#f9a825;
+  }
+  
+
+
+
+/* 각 슬라이드 */
+.slide {
+    width: 300px; 
+    height: 350px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:25vw;
+    
+}
+
+/* 슬라이드에 포함된 이미지 스타일 */
+.slide img {
+   
+    overflow: hidden; 
+
+    object-fit: cover; 
+}
+.slide video{
+    width: 18vw;
+}
+
+
+
+
+
+
+
+
+#section222 .parallax__item__img222 {
+    background-image: url(assets/img/images15.jpg);
+}
+ /* parallax__cont */
+ #parallax__cont222 {
+    overflow: hidden;
+}
+.parallax__item222 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section222, 
+#section4222, 
+#section6222, 
+#section8222 {
+    background-color: #222;
+}
+.parallax__item__num222 {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 5vw;
+    line-height: 1;
+}
+.parallax__item__img222 {
+    width: 10vw;
+    height: 10vw;
+    margin: 1vw;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+#section12  .i13 {
+    background-image: url(img2/panta04.jpg);
+}
+#section12  .i23 {
+    background-image: url(img2/panta05.jpg);
+}
+
+#section12  .i33 {
+    background-image: url(img2/panta06.jpg);
+}
+
+#section12  .i43 {
+    background-image: url(img2/panta07.heic);
+}
+
+#section12  .i53 {
+    background-image: url(img2/panta08.heic);
+}
+#section12  .i63 {
+    background-image: url(img2/pnata10.jpg);
+}
+
+
+
+
+
+  /* parallax__cont */
+  #parallax__cont3 {
+    overflow: hidden;
+}
+
+#section12 
+ 
+ 
+ {
+    background-color: #ffb400;
+}
+.parallax__item__num3 {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 5vw;
+    line-height: 1;
+}
+.parallax__item__img3 {
+    width: 17vw;
+    height: 20vw;
+    
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+/*텍스트 애니메이션*/
+
+
+#section57 {
+    flex-direction: column;
+}
+#section57 .parallax__item__img {
+    background-image: url(assets/img/images05.jpg);
+}
+
+.parallax__item7 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t17{
+    color:#4b4b4b;
+    font-size:5rem;
+    font-weight: 600;
+    font-family: "continuous";
+}
+.t27{
+    color:#222;
+    font-size:6rem;
+    font-weight:800;
+
+}
+
+.t37{
+    color:#222;
+    font-size:6rem;
+    font-weight: 800;
+    
+}
+
+.t47{
+    color:#ff0000;
+    font-size:9rem;
+    font-weight: 800;
+    font-family: "continuous";
+    margin-top:1vw;
+}
+
+
+
+
+
+
+
+
+/*펜타포트 푸터*/
+.pantaport_footer{
+    width:100%;
+    height: 15vw;
+    background:#ffb400;}
+
+
+
+
+.custom_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    padding: 20px;
+    align-items: flex-start;
+    margin-top:2vw;
+    margin-bottom:2vw;
+    
+}
+
+
+
+
+
+/* 푸터 전체 컨테이너 */
+footer {
+    background-color: #1f1f1f; 
+    color: #fff; 
+    padding: 40px 0;
+    font-size: 1rem;
+}
+
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.footer-logo .company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* 주요 링크 스타일 */
+.footer-links h4,
+.footer-social h4,
+.footer-contact h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-social img{
+    width:2vw;
+}
+.footer-links ul,
+.footer-social ul,
+.footer-contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-social ul li,
+.footer-contact ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a,
+.footer-social ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover,
+.footer-social ul li a:hover {
+    color: #f9a825; 
+}
+
+
+.footer-social ul {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social ul li a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    transition: background-color 0.3s;
+}
+
+.footer-social ul li a:hover {
+    background-color: #f9a825;
+}
+
+
+.footer-contact ul li {
+    font-size: 0.9rem;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* 반응형 디자인 
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo,
+    .footer-links,
+    .footer-social,
+    .footer-contact {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo {
+        margin-bottom: 30px;
+    }
+
+    .footer-social ul {
+        justify-content: center;
+    }
+}*/
+
+
+/* Box styling */
+.custom_box_1, .custom_box_2 {
+    width: 75vw;
+    height: 25vw;
+    background-color: #fab314;
+    margin: 20px 0;
+    opacity: 0; 
+    transform: translateY(50px); 
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.custom_box_2{
+    margin-left: 22vw;
+    margin-top:5vw;
+}
+.artist01{
+    width:25%;
+    margin-left:20vw;
+    top:0;
+    left:0;
+}
+
+/* Image styling */
+.custom_img_1, .custom_img_2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.custom_box_1.visible, .custom_box_2.visible {
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.custom_box_1.visible {
+    animation: slideUp 3s forwards;
+}
+
+.custom_box_2.visible {
+    animation: slideUp 3s forwards;
+    animation-delay: 0.5s; 
+}
+
+
+
+
+
+
+
+/*세로 텍스트 인트로*/
+
+
+
+
+
+
+
+
+
+
+
+/**/
+#section5 {
+    flex-direction: column;
+}
+#section5 .parallax__item__text,
+#section6 .parallax__item__text {
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#parallax__cont4 {
+    overflow: hidden;
+}
+.parallax__item4 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*아티스트영상*/
+
+.panta_top,.panta_bottom{
+    display:flex;
+
+}
+.panta_video_02{
+    width:50vw;
+}
+.video_p{
+    position: absolute;
+    top:0;
+    left:50%;
+    color:#fff;
+    margin-top:2vw;
+}
+
+
+/*마지막인트로*/
+
+
+.parallax__item9 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parallax__item__img9 {
+    width: 10vw;
+    height: 10vw;
+    margin: 1vw;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+#section99 .parallax__item__img9 {
+    background-image: url(img2/panta19.jpg);
+}
+#section99 .parallax__item__img9 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: 20vw;
+}
+
+
+.parallax__item__num9 img{
+    width:4vw;
+   
+}
+.section99_type{
+    font-size:3.5rem;
+    font-weight: 800;
+    text-align: justify;
+}
+.section99_auto{
+    display:flex;
+    margin-left:15vw;
+    margin-bottom: 10vw;
+    position: relative;
+}
+.section99_type{
+    position: absolute;
+    top: -1vw;
+    left: 135%;
+
+}
+
+
+
+/*box*/
+/* 메뉴 버튼*/
+.menu-toggle {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 200px;
+   
+    cursor: pointer;
+    z-index: 10000;
+    border-radius: 5px;
+    transition: opacity 0.3s; 
+}
+
+.menu-toggle:active {
+    opacity: 0.8; /* 클릭 시 흐리게 */
+}
+
+.menu-button {
+    width: 34%;
+    height: 100%;
+    background-color: #ff0000;
+    border-radius: 5px;
+    margin-left: 2.5vw;
+}
+
+
+
+
+
+
+
+
+
+/*네비 nav*/
+.drawer-nav {
+    position: fixed;
+    top: 0;
+    right: -20vw; 
+    width: 20vw;
+    height: 100%;
+    background-color: #564c39;
+    transition: right 0.3s ease;
+    z-index: 9999;
+}
+
+.slider_type{
+    margin-left:50vw;
+}
+
+
+.drawer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 11vw;
+}
+
+.drawer-nav ul li {
+    margin: 20px 0;
+}
+
+.drawer-nav ul li a {
+    display: block;
+    font-family: 'continuous';
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+/* 네비open */
+.drawer-nav.open {
+    right: 0;
+}
+/* top 버튼 */
+.scroll-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #83751f;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    display: none; 
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-top:hover {
+    background-color: #555;
+}
+
+
+.menu_button_type{
+    color:#fff;
+    font-size:2rem;
+    font-weight:300 ;
+    text-align: center;
+    margin-left:0.5vw;
+   
+}
+.menu_button_type:hover{
+    color:#fab314;
+}
+
+.video-background2{
+    display:none;
+}
+.mobile_top,.mobile_nav,.video-backgroune2,.panta_video2,.parallax__item91,.text_1,.text0{
+    display: none;
+}
+}
+
+
+
+@media screen and  (min-width:768px) and (max-width:1022px){
+    /*layout style*/
+     #text444{
+        display:none;
+     }
+     .video-background3{
+        background:#000;
+     }
+    .desk_top{
+        height: 5vw;
+        background: linear-gradient(45deg,  #7700ff,#ff0000);
+       
+    }#4b00ff    /#624949, #bdc05f / #ff0000,#ffff00
+    .video2_2{
+        margin-top:0.5vw;
+    }
+    .mobile_type{
+        font-size:1rem;
+        color:#fff;
+        text-align: center;
+        
+       }
+       .mobile_img{
+           width:2vw;
+           margin-top: 1vw;
+           margin-right: 1vw;;
+       }
+       .mobile_top{
+           background:#000;
+           margin:0 auto;
+       }
+       
+    .mobile_top,.mobile_nav,.video-backgroune2,.panta_video2 {
+        display: none;
+    }
+    .mWrap{
+        position: relative;
+        width:100%;
+        min-height: 100%;
+        text-align: center;
+    }
+    .parallax{
+        position: relative;
+        width:1900px;
+        height: 1400px;/*1200*3*/
+        margin:0 auto;
+    }
+    .mSection01,
+    .mSection02,
+    .mSection03{
+        position: absolute;
+        left:50%;
+        width:1900px;
+        height: 1200px;
+        margin-left:-950px;
+        /*border:1px solid green;*/
+        overflow:hidden;
+    }
+    .mSection01{
+        top:0;
+       
+        background-size: 100% 1200px;
+    }
+    .mSection02{
+        top:1200px;
+        background: url(images/bg_main02.jpg)no-repeat 0 0;
+        background-size: 100% 1200px;
+    }
+    .mSection03{
+        top:2400px;
+        background: url(images/bg_main03.jpg)no-repeat 0 0;
+        background-size: 100% 1200px;
+    }
+    .mSection01>*,
+    .mSection02>*,
+    .mSection03>*{position: absolute;}
+    
+    /*mSection01 style*/
+    .mSection01 .arrow{
+        left:300px;
+        top:10px;
+        width:49px;
+        height: 56px;
+        z-index: 500;
+    }
+    .mSection01 .tit{
+        left:291px;
+        top:200px;
+        z-index: 400;
+    }
+    .mSection01 .txt{
+        left:297px;
+        top:390px;
+        z-index: 400;
+    }
+    .mSection01 .obj01{
+        left:117px;
+        top:0px;
+        width:10vw;
+        height: 10vw;
+      
+        z-index: 300;
+    }
+    .mSection01 .obj02{
+        left:729px;
+        top:363px;
+        width: 10vw;
+        height: 10vw;
+       
+        z-index: 300;
+    }
+    .mSection01 .obj03{
+        left:909px;
+        top:452px;
+        width: 12vw;
+        height: 12vw;
+      
+        z-index: 300;
+    }
+    .mSection01 .obj04{
+        left:1121px;
+        top:576px;
+        width: 54px;
+        height: 67px;
+       /* background: url(../img1/PENTAPORTimg2.png)no-repeat;*/
+        z-index: 300;
+    }
+    .mSection01 .obj05{
+        left:1191px;
+        top:591px;
+        width: 41px;
+        height: 34px;
+       /* background: url(../img1/PENTAPORTimg2.png)no-repeat;*/
+        z-index: 300;
+    }
+    .mSection01 .obj06{
+        left:1238px;
+        top:389px;
+        width: 405px;
+        height: 315px;
+       /* background: url(../img1/PENTAPORTimg2.png)no-repeat;*/
+        z-index: 300;
+    }
+    
+    
+    .mSection01 {
+        position: relative;
+  
+     
+        overflow: hidden; 
+    }
+    .mSection01{
+        background: #000;
+    }
+    
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+       
+        z-index: -1;  
+    }
+    
+    .video-background video {
+        width: 52.5%;
+        object-fit: cover; 
+    }
+    .video-background img{
+        width:1.8vw;
+        margin-right: 2vw;
+    }
+    .background_type{
+        margin-top:2vw;
+        
+    }
+    .content {
+        position: relative;
+        z-index: 1;  
+        color: white;  
+        padding: 20px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    /*펜타포트 글씨 확장*/
+    
+    #parallax__cont3 {
+        overflow: hidden;
+    }
+    .parallax__item3 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        display:none;
+       
+    }
+    
+    #section63 .parallax__item__text3 {
+        font-size: 5vw;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 6vw;
+        padding: 30px;
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+        color:#594141;
+    }
+    .parallax__item__text3 img{
+        width:4vw;
+    }
+    
+    
+    #section63 {
+        background-color: #ffb400; /*#e1c4c4;*/  
+        background: linear-gradient(45deg, #ff0000, #4b00ff);
+    
+        /*        background: linear-gradient(45deg, #ff0000, #4b00ff);*/
+    }
+    
+    .music_color{
+        color:#ff6c00;/*#ff0000;*/
+        font-weight: 900;
+        font-size: 5rem;
+        
+        
+    }
+    .music_color_1{
+        color:#ffa700;/*#564c39;*/
+        font-weight: 600;
+        font-size: 3rem;
+        
+        
+        
+    }
+    .music_color_2{
+        color:#564c39;
+        font-weight: 600;
+        font-size: 6rem;
+        
+        
+    }
+    .music_color_3{
+        color:#f9bf52;/*#564c39;*/
+        font-weight: 600;
+        font-size: 3rem;
+        
+    }
+    .music_color_01{
+        color:#e1c4c4;
+    }
+    
+    
+    
+    /*펜타포트 스크롤링*/
+    
+    
+    .scrolling-container {
+        width: 100%;
+        height: 6.5vw;
+        overflow: hidden;
+        background: #000;
+    }
+    
+    .scrolling-text {
+        font-size: 4vw;
+        color: #fff;
+        font-weight: 900;
+        white-space: nowrap;
+        display: inline-block;
+        /* 애니메이션을 바로 시작 */
+        animation: scroll-left 25s linear infinite;
+        font-family: "continuous";
+        font-weight: 100;
+        letter-spacing:0.5vw;
+        line-height: 8vw;
+    }
+    
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(100%);  /* 글씨가 화면 밖에서 시작 */
+        }
+        100% {
+            transform: translateX(-100%); /* 글씨가 화면 밖으로 나가도록 */
+        }
+    }
+    
+    
+    
+    /*section04 세계적인 음악축제*/
+    .section04_title_1{
+        width:70vw;
+        height: 25vw;
+        background:#fb0000;
+        margin-top:8vw;
+    }
+    .section04_title_2{
+        width:70vw;
+        height: 25vw;
+        background:#000000;
+        top:20vw;
+        margin-left: 35vw;
+        margin-top:10vw;
+        margin-bottom: 10vw;
+    }
+    .section04_type1{
+      color:#fff;
+      font-size: 4rem;
+      font-weight: 800;
+      text-align: end;
+    }
+    
+    
+    .section04_type2{
+        color:#fff;
+        font-size: 4rem;
+        font-weight: 800;
+      }
+    
+    
+    
+    
+      /* parallax__cont */
+    .parallax__item {
+        width: 100%;
+        height: 110vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .parallax__item__num {
+        font-size: 3rem;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        font-family: "continuous";
+        font-weight: 100;
+        z-index: 100;
+        color:#ffcc00;
+        top: 36vw;
+        left: 57vw;
+        transform: rotate(-25deg);
+       
+       
+        
+    }
+    .parallax__item__num111 {
+        font-size: 2rem;
+        width: 30vw;
+        right: 20px;
+        bottom: 20px;
+        display:flex;
+        font-weight: 100;
+        z-index: 100;
+        color:#ffcc00;
+        top:7vw;
+        left:6vw;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 5vw;
+        gap: 0.5vw;
+        margin-bottom: 7vw;
+       
+        
+    }
+    .parallax__item__num1111 {
+       
+        width: 18vw;
+        right: 20px;
+        bottom: 20px;
+        display:flex;
+        font-weight: 100;
+        z-index: 100;
+        color:#ffcc00;
+        top:7vw;
+        left:6vw;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 5vw;
+        gap: 0.5vw;
+        margin-bottom: 7vw;
+       
+        
+    }
+    .setlist{
+        margin-left:6vw;
+        width:9vw;
+        
+    }
+    .setlist1{
+        margin-left: 6vw;
+        margin-top: 1.5vw;
+        animation: changeColor 5s infinite; 
+        transition: opacity 2s ease-in-out; 
+        width:3vw;
+    }
+   
+    .setlist_1{
+        margin-left:6vw;
+        
+    }
+    .setlist_11{
+        margin-left: 6vw;
+        margin-top: 1.5vw;
+        animation: changeColor 5s infinite; 
+        transition: opacity 2s ease-in-out; 
+    
+    }
+    @keyframes changeColor {
+          0% {
+            opacity: 1;
+          }
+          5% {
+            opacity: 1;
+            content: url('../img/setlist.png');
+          }
+          10% {
+            opacity: 1;
+            content: url('../img/setlist1.png');
+          }
+          15% {
+            opacity: 1;
+            content: url('../img/setlist2.png'); 
+          }
+          20% {
+            opacity: 1;
+            content: url('../img/setlist3.png'); 
+          }
+          25% {
+            opacity: 1;
+            content: url('../img/setlist2.png'); 
+          }
+          30% {
+            opacity: 1;
+            content: url('../img/setlist.png');
+          }
+          35% {
+            opacity: 1;
+            content: url('../img/setlist1.png');
+          }
+          40% {
+            opacity: 1;
+            content: url('../img/setlist2.png'); 
+          }
+          45% {
+            opacity: 1;
+            content: url('../img/setlist3.png'); 
+          }
+          50% {
+            opacity: 1;
+            content: url('../img/setlist2.png'); 
+          }
+          55% {
+            opacity: 1;
+            content: url('../img/setlist.png');
+          }
+          60% {
+            opacity: 1;
+            content: url('../img/setlist1.png');
+          }
+          65% {
+            opacity: 1;
+            content: url('../img/setlist2.png'); 
+          }
+          70% {
+            opacity: 1;
+            content: url('../img/setlist3.png'); 
+          }
+          75% {
+            opacity: 1;
+            content: url('../img/setlist2.png'); 
+          }
+          80% {
+            opacity: 1;
+            content: url('../img/setlist.png');
+          }
+          85% {
+            opacity: 1;
+            content: url('../img/setlist1.png');
+          }
+          90% {
+            opacity: 1;
+            content: url('../img/setlist2.png'); 
+          }
+          95% {
+            opacity: 1;
+            content: url('../img/setlist3.png'); 
+          }
+          0% {
+            opacity: 1;
+            content: url('../img/setlist2.png'); 
+          }
+          
+          
+         
+         
+        }
+    
+    .parallax__item__num111 img{
+        width: 2vw;
+    }
+    .parallax__item__num111 a{
+        font-size: 0.7rem;
+        color:#fff;
+        margin-left:2vw;
+        font-weight: 400;
+        margin-top: 0.2vw;
+        
+    }
+    .parallax__item__num1111 img{
+        width: 2vw;
+    }
+    .parallax__item__num1111 a{
+        font-size: 0.7rem;
+        color:#fff;
+        margin-left:2vw;
+        font-weight: 400;
+        margin-top: 0.2vw;
+        
+    }
+    .setlist_01{
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 11vw;
+        margin-bottom: 5vw;
+    
+    }
+    
+    .setlist_02{
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 11vw;
+        margin-bottom: 5vw;
+    
+    }
+    .setlist_11{
+        width:3vw;
+    }
+    .setlist_1{
+        width:9vw;
+    }
+    
+    
+    .baekyurin{
+        display:flex;
+    
+    }
+    .baekyurin1{
+        display:flex;
+    
+    }
+    .parallax__item__num1 {
+        font-size: 3rem;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        font-family: "continuous";
+        font-weight: 100;
+        z-index: 100;
+        color:#ffffff;
+        top: 37vw;
+        left: 48%;
+        transform: rotate(-25deg);
+    }
+    .parallax__item__num2 {
+        font-size: 3rem;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        font-family: "continuous";
+        font-weight: 100;
+        z-index: 100;
+        color:#b50000;
+        top: 36vw;
+        left: 38%;
+        transform: rotate(-17deg);
+    }
+    .parallax__item__num3 {
+        font-size: 3rem;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        font-family: "continuous";
+        font-weight: 100;
+        z-index: 100;
+        color:#ff0000;
+        top:35vw;
+        left:50vw;
+        transform: rotate(-25deg);
+    }
+    .parallax__item__num4 {
+        font-size: 3rem;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        font-family: "continuous";
+        font-weight: 100;
+        z-index: 100;
+        color:#dedede;
+        top:35vw;
+        left:50vw;
+        transform: rotate(-25deg);
+    }
+    .parallax__item__num5 {
+        font-size: 3rem;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        font-family: "continuous";
+        font-weight: 100;
+        z-index: 100;
+        color:#f0df26;
+        top: 37vw;
+        left: 52vw;
+        transform: rotate(-25deg);
+    }
+    .parallax__item__num6 {
+        font-size: 8rem;
+        text-align: center;
+        
+        font-family: "continuous";
+        font-weight: 600;
+      
+        color:#000000;
+       
+        
+    }
+    
+    
+    
+    
+    .parallax__item__imgWrap {
+        width: 100%;
+        height: 28vw;
+        padding-bottom: 18%;
+        
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .parallax__item__img {
+        position: absolute;
+        left: -5%; 
+        top: -5%;
+        width: 110%;
+        height: 110%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        filter: saturate(0%);
+        transition: all 1s;
+    }
+    .parallax__item__img:hover {
+        filter: saturate(100%);
+        transform: scale(1.025);
+    }
+    #section1{
+        background-color:#f9a825;
+    }
+    #section1 .parallax__item__img {
+       background: url(img2/panta18.jpg);
+       background-size: cover;  
+       
+       background-repeat: no-repeat; 
+       height: 70vh; 
+       width: 60vw;
+       left: 30.7%;
+       top:12%;
+    }
+    #section2 .parallax__item__img {
+        background: url(img2/pantakim.png);
+        background-size: cover;  
+        background-position: center; 
+        background-repeat: no-repeat; 
+        height: 70vh; 
+        width: 60vw;
+        left: 30.8%;
+        top:12%;
+    }
+    #section3 .parallax__item__img {
+        background: url(img2/pantafomantic.jpg);
+        background-size: cover;  
+        background-position: center; 
+        background-repeat: no-repeat; 
+        height: 70vh; 
+       width: 60vw;
+       left: 30.8%;
+       top:12%;
+    }
+    #section4 .parallax__item__img {
+        background: url(img2/pantasesoseon.jpg);
+        background-size: cover;  
+        background-position: center; 
+        background-repeat: no-repeat; 
+        height: 70vh; 
+       width: 60vw;
+       left: 30.2%;
+       top:12%;
+    }
+    #section55 .parallax__item__img {
+        background: url(../img1/lee.jpg_large);
+        background-size: cover;  
+        background-position: center; 
+        background-repeat: no-repeat; 
+        height: 70vh; 
+       width: 60vw;
+       left: 30.8%;
+       top:12%;
+    }
+    #section6 .parallax__item__img {
+        background: url(../img1/jang.jpg);
+        background-size: cover;  
+        background-position: center; 
+        background-repeat: no-repeat; 
+        height: 70vh; 
+        width: 60vw;
+        left: 30.8%;
+        top:12%;
+    }
+    #section7 .parallax__item__img {
+      
+        background-size: cover;  
+        background-position: center; 
+        background-repeat: no-repeat; 
+        height: 100vh; 
+        width:100%;
+        left:50%;
+        top:50%;
+    }
+    .rotating-image {
+        width: 9vw;  
+        animation: rotate 2s linear infinite; 
+        margin-bottom: 3vw;
+        margin-left: 2vw; 
+    }
+    
+    .rotating-image1{
+        width: 2vw;  
+        animation: rotate 2s linear infinite; 
+      
+        margin-left: 2vw; 
+    }
+    .rotating-image3{
+        width: 3vw;  
+        animation: rotate 2s linear infinite; 
+      
+        
+    }
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg); 
+        }
+        100% {
+            transform: rotate(360deg); 
+        }
+    }
+    .section7_type1{
+        display:flex;
+        align-items: flex-end;
+        margin-bottom: 2vw;
+        margin-left: 2vw;
+    }
+    
+    
+    
+    
+    
+    
+    #section1{
+        background-color:#f92525;   
+    }
+    #section2{
+        background-color: #ce1a1a;
+    }
+    #section3{
+        background-color: #f92525; 
+    }
+    #section4{
+        background-color: #a50000;
+    }
+    #section55{
+        background-color: #303030;
+    }
+    #section6{
+        background-color: #ce1a1a;
+    }
+    
+    
+    /* option */
+    #parallax__cont {
+        overscroll-behavior: none;
+        width: 900%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    
+    
+    
+    
+    /*자동슬라이드*/
+    
+    .slider-container {
+        position: relative;
+        width: 100%; 
+        height: 70vw;
+        background:url(../img/PENTAPORT11_1.png-mobile.png);
+        
+    }
+        
+    
+    
+    .slider {
+        display: flex;
+        transition: transform 1s ease-in-out;
+    }
+    
+    
+    
+    /*글씨 세로로 네개 나오기*/
+    
+    
+    .text {
+        font-size: 2rem;
+        color: #ffffff;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        margin: 10px 0;
+        font-weight: 500;
+        
+      
+      }
+    
+    
+    
+      .show {
+        opacity: 1;
+      }
+      .text_intro{
+       
+        background: linear-gradient(45deg, #ff0000, #4b00ff); /* 어두운 회색 그라데이션 */
+        display: flex;
+        flex-direction: column; /* 세로로 정렬 */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+       
+      }
+      .text_intro_type{
+        
+      }
+      .star{
+        color:#f9a825;
+      }
+      
+    
+    
+    
+    /* 각 슬라이드 */
+    .slide {
+        width: 300px; 
+        height: 350px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:25vw;
+        
+    }
+    
+    /* 슬라이드에 포함된 이미지 스타일 */
+    .slide img {
+       
+        overflow: hidden; 
+    
+        object-fit: cover; 
+    }
+    .slide video{
+        width: 26vw;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    #section222 .parallax__item__img222 {
+        background-image: url(assets/img/images15.jpg);
+    }
+     /* parallax__cont */
+     #parallax__cont222 {
+        overflow: hidden;
+    }
+    .parallax__item222 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #section222, 
+    #section4222, 
+    #section6222, 
+    #section8222 {
+        background-color: #222;
+    }
+    .parallax__item__num222 {
+        position: absolute;
+        right: -26px;
+        bottom: 26px;
+        font-size: 5vw;
+        line-height: 1;
+    }
+    .parallax__item__img222 {
+        width: 10vw;
+        height: 10vw;
+        margin: 1vw;
+        background-color: #fff;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #section12  .i13 {
+        background-image: url(img2/panta04.jpg);
+    }
+    #section12  .i23 {
+        background-image: url(img2/panta05.jpg);
+    }
+    
+    #section12  .i33 {
+        background-image: url(img2/panta06.jpg);
+    }
+    
+    #section12  .i43 {
+        background-image: url(img2/panta07.heic);
+    }
+    
+    #section12  .i53 {
+        background-image: url(img2/panta08.heic);
+    }
+    #section12  .i63 {
+        background-image: url(img2/pnata10.jpg);
+    }
+    
+    
+    
+    
+    
+      /* parallax__cont */
+      #parallax__cont3 {
+        overflow: hidden;
+    }
+    
+    #section12 
+     
+     
+     {
+        background-color: #ffb400;
+    }
+    .parallax__item__num3 {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        font-size: 5vw;
+        line-height: 1;
+    }
+    .parallax__item__img3 {
+        width: 17vw;
+        height: 20vw;
+        
+        background-color: #fff;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /*텍스트 애니메이션*/
+    
+    
+    #section57 {
+        flex-direction: column;
+    }
+    #section57 .parallax__item__img {
+        background-image: url(assets/img/images05.jpg);
+    }
+    
+    .parallax__item7 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .t17{
+        color:#4b4b4b;
+        font-size:2.5rem;
+        font-weight: 600;
+        font-family: "continuous";
+    }
+    .t27{
+        color:#222;
+        font-size:3rem;
+        font-weight:800;
+    
+    }
+    
+    .t37{
+        color:#222;
+        font-size:3rem;
+        font-weight: 800;
+        
+    }
+    
+    .t47{
+        color:#ff0000;
+        font-size:6rem;
+        font-weight: 800;
+        font-family: "continuous";
+        margin-top:1vw;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*펜타포트 푸터*/
+    .pantaport_footer{
+        width:100%;
+        height: 15vw;
+        background:#ffb400;}
+    
+    
+    
+    
+    .custom_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+        padding: 20px;
+        align-items: flex-start;
+        margin-top:2vw;
+        margin-bottom:2vw;
+        
+    }
+    
+    
+    
+    
+    
+    /* 푸터 전체 컨테이너 */
+    footer {
+        background-color: #1f1f1f; 
+        color: #fff; 
+        padding: 20px 0;
+        font-size: 1rem;
+    }
+    
+    
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 1vw;
+    }
+    
+    
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        width: 19%;
+        margin-bottom: 20px;
+        margin-left: 4vw;
+    }
+    
+    .footer-logo img {
+        max-width:3vw;
+        
+    }
+    
+    .footer-logo .company-name {
+        font-size: 0.8rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    /* 주요 링크 스타일 */
+    .footer-links h4,
+    .footer-social h4,
+    .footer-contact h4 {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .footer-social img{
+        width:2vw;
+    }
+    .footer-links ul,
+    .footer-social ul,
+    .footer-contact ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .footer-links ul li,
+    .footer-social ul li,
+    .footer-contact ul li {
+        margin-bottom: 8px;
+    }
+    
+    .footer-links ul li a,
+    .footer-social ul li a {
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.3s;
+        font-size: 1vw;
+    }
+    
+    .footer-links ul li a:hover,
+    .footer-social ul li a:hover {
+        color: #f9a825; 
+    }
+    
+    
+    .footer-social ul {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .footer-social ul li a {
+        display: inline-block;
+        padding: 10px;
+        border-radius: 50%;
+        background-color: #333;
+        transition: background-color 0.3s;
+    }
+    
+    .footer-social ul li a:hover {
+        background-color: #f9a825;
+    }
+    
+    
+    .footer-contact ul li {
+        font-size: 0.7rem;
+    }
+    
+    
+    .footer-bottom {
+        text-align: center;
+        padding: 12px;
+        background-color: #333;
+    }
+    
+    .footer-bottom p {
+        margin: 0;
+        font-size: 0.7rem;
+    }
+    
+    /* 반응형 디자인 
+    @media (max-width: 768px) {
+        .footer-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .footer-logo,
+        .footer-links,
+        .footer-social,
+        .footer-contact {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    
+        .footer-logo {
+            margin-bottom: 30px;
+        }
+    
+        .footer-social ul {
+            justify-content: center;
+        }
+    }*/
+    
+    
+    /* Box styling */
+    .custom_box_1, .custom_box_2 {
+        width: 75vw;
+        height: 25vw;
+        background-color: #fab314;
+        margin: 20px 0;
+        opacity: 0; 
+        transform: translateY(50px); 
+        transition: opacity 1s ease-out, transform 1s ease-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        position: relative;
+        
+    }
+    .custom_box_2{
+        margin-left: 22vw;
+        margin-top:5vw;
+    }
+    .artist01{
+        width:25%;
+        margin-left:20vw;
+        top:0;
+        left:0;
+    }
+    
+    /* Image styling */
+    .custom_img_1, .custom_img_2 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+    
+    .custom_box_1.visible, .custom_box_2.visible {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+    
+    @keyframes slideUp {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    
+    .custom_box_1.visible {
+        animation: slideUp 3s forwards;
+    }
+    
+    .custom_box_2.visible {
+        animation: slideUp 3s forwards;
+        animation-delay: 0.5s; 
+    }
+    
+    
+    
+    
+    
+    
+    
+    /*세로 텍스트 인트로*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /**/
+    #section5 {
+        flex-direction: column;
+    }
+    #section5 .parallax__item__text,
+    #section6 .parallax__item__text {
+        font-size: 5vw;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    #parallax__cont4 {
+        overflow: hidden;
+    }
+    .parallax__item4 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /*아티스트영상*/
+    
+    .panta_top,.panta_bottom{
+        display:flex;
+    
+    }
+    .panta_video_02{
+        width:50vw;
+    }
+    .video_p{
+        position: absolute;
+        top:0;
+        left:50%;
+        color:#fff;
+        margin-top:2vw;
+    }
+    
+    
+    /*마지막인트로*/
+    
+    
+    .parallax__item9 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .parallax__item__img9 {
+                width: 26vw;
+        height: 26vw;
+        margin: 1vw;
+        background-color: #fff;
+        background-size: cover;
+        background-position: center;
+    }
+    #section99 .parallax__item__img9 {
+        background-image: url(img2/panta19.jpg);
+    }
+    #section99 .parallax__item__img9 {
+        width: 24vw;
+        height: 24vw;
+        border-radius: 50%;
+        margin-right: 20vw;
+    }
+    
+    
+    .parallax__item__num9 img{
+        width:4vw;
+       
+        animation: rotate 2s linear infinite; 
+      
+        
+    }
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg); 
+        }
+        100% {
+            transform: rotate(360deg); 
+        }
+    
+       
+    }
+    .section99_type{
+        font-size:2.3rem;
+        font-weight: 800;
+        text-align: justify;
+    }
+    .section99_auto{
+        display:flex;
+        margin-left:15vw;
+        margin-bottom: 10vw;
+        position: relative;
+    }
+    .section99_type{
+        position: absolute;
+        top: -1vw;
+        left: 135%;
+    
+    }
+    
+    
+    
+    /*box*/
+    /* 메뉴 버튼*/
+    .menu-toggle {
+        position: fixed;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 200px;
+       
+        cursor: pointer;
+        z-index: 10000;
+        border-radius: 5px;
+        transition: opacity 0.3s; 
+    }
+    
+    .menu-toggle:active {
+        opacity: 0.8; /* 클릭 시 흐리게 */
+    }
+    
+    .menu-button {
+        width: 34%;
+        height: 100%;
+        background-color: #ff0000;
+        border-radius: 5px;
+        margin-left: 4.8vw;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*네비 nav*/
+    .drawer-nav {
+        position: fixed;
+        top: 0;
+        right: -26vw; 
+        width: 26vw;
+        height: 100%;
+        background-color: #564c39;
+        transition: right 0.3s ease;
+        z-index: 9999;
+    }
+    
+    .slider_type{
+        margin-left:50vw;
+    }
+    
+    
+    .drawer-nav ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 11vw;
+    }
+    
+    .drawer-nav ul li {
+        margin: 20px 0;
+    }
+    
+    .drawer-nav ul li a {
+        display: block;
+        font-family: 'continuous';
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    
+    /* 네비open */
+    .drawer-nav.open {
+        right: 0;
+    }
+    /* top 버튼 */
+    .scroll-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background-color: #6c5c69;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+        display: none; 
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 1000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+    
+    .scroll-top:hover {
+        background-color: #555;
+    }
+    
+    
+    .menu_button_type{
+        color:#fff;
+        font-size:2rem;
+        font-weight:300 ;
+        text-align: center;
+        margin-left:0.5vw;
+       
+    }
+    .menu_button_type:hover{
+        color:#fab314;
+    }
+    .video-background2,.parallax__item91,.text_1{
+        display:none;
+    }
+    .parallax{display:none;}
+    
+
+
+}
+
+    @media screen and  (min-width:320px) and (max-width:767px){
+        /*layout style*/
+        .desk-top{display:none;}
+       
+        .text-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            text-align: center;
+            background:#000;
+          }
+      
+          .text0 {
+            font-size: 3rem;
+            color: white;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            margin: 10px 0;
+            
+          }
+      
+          .show {
+            opacity: 1;
+          }
+    
+
+          #text222{
+            font-size: 2.5rem;
+            color:#fff;
+            font-weight: 600;
+           
+          }
+          #text333{
+            font-size: 2.5rem;
+            color:#fff;
+            font-weight: 600;
+            
+          }
+          #text444{
+            font-size: 5rem;
+            color:#ff0000;
+            font-weight: 800;
+            font-family: "continuous";
+          }
+    
+    
+    
+        
+        /*펜타포트 글씨 확장*/
+         
+.mobile_type{
+ font-size:0.5rem;
+ color:#fff;
+ text-align: center;
+ margin-left: 36vw;
+}
+.mobile_img{
+    width:2vw;
+    margin-top: 8.5vw;
+    margin-right: 1vw;;
+}
+.mobile_top{
+    background:#000;
+    margin:0 auto;
+}
+
+
+        
+        #parallax__cont3 {
+            overflow: hidden;
+        }
+        .parallax__item3 {
+            width: 100%;
+            height: 116vh;
+            position: relative;
+            display: flex;
+            align-content: center;
+            flex-wrap: wrap;
+            display:none;
+           
+        }
+        .video-background2{
+            background:#000;
+        }
+        .video-background3,.desk_top{display:none;}
+        #section63 .parallax__item__text3 {
+            font-size: 5vw;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            line-height: 6vw;
+            padding: 30px;
+            
+            text-align: center;
+            font-weight: 500;
+            color:#594141;
+        }
+        .parallax__item__text3 img{
+            width:4vw;
+        }
+        
+        
+        #section63 {
+            background-color: #ffb400; /*#e1c4c4;*/  
+            background: linear-gradient(45deg, #ff0000, #4b00ff);
+        
+           
+        }
+        
+        .music_color{
+            color:#ff6c00;/*#ff0000;*/
+            font-weight: 900;
+            font-size: 2rem;
+            
+            
+        }
+        .music_color_1{
+            color:#ffa700;/*#564c39;*/
+            font-weight: 600;
+            font-size:1rem;
+            
+            
+            
+        }
+        .music_color_2{
+            color:#564c39;
+            font-weight: 600;
+            font-size: 1.5rem;
+            
+            
+        }
+        .music_color_3{
+            color:#f9bf52;/*#564c39;*/
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 8vw;
+        }
+        .music_color_01{
+            color:#e1c4c4;
+        }
+        
+        
+        
+        /*펜타포트 스크롤링*/
+        
+        
+        .scrolling-container {
+            width: 100%;
+            height: 6.5vw;
+            overflow: hidden;
+            background: #000;
+        }
+        
+        .scrolling-text {
+            font-size: 4vw;
+            color: #fff;
+            font-weight: 900;
+            white-space: nowrap;
+            display: inline-block;
+            /* 애니메이션을 바로 시작 */
+            animation: scroll-left 25s linear infinite;
+            font-family: "continuous";
+            font-weight: 100;
+            letter-spacing:0.5vw;
+            line-height: 8vw;
+        }
+        
+        @keyframes scroll-left {
+            0% {
+                transform: translateX(100%);  /* 글씨가 화면 밖에서 시작 */
+            }
+            100% {
+                transform: translateX(-100%); /* 글씨가 화면 밖으로 나가도록 */
+            }
+        }
+        
+        
+        
+        /*section04 세계적인 음악축제*/
+        .section04_title_1{
+            width:70vw;
+            height: 25vw;
+            background:#fb0000;
+            margin-top:8vw;
+        }
+        .section04_title_2{
+            width:70vw;
+            height: 25vw;
+            background:#000000;
+            top:20vw;
+            margin-left: 35vw;
+            margin-top:10vw;
+            margin-bottom: 10vw;
+        }
+        .section04_type1{
+          color:#fff;
+          font-size: 4rem;
+          font-weight: 800;
+          text-align: end;
+        }
+        
+        
+        .section04_type2{
+            color:#fff;
+            font-size: 4rem;
+            font-weight: 800;
+          }
+        
+        
+        
+        
+          /* parallax__cont */
+        .parallax__item {
+            width: 100%;
+            height: 110vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .parallax__item__num {
+            font-size: 3rem;
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            font-family: "continuous";
+            font-weight: 100;
+            z-index: 100;
+            color:#ffcc00;
+            top: 76vw;
+            left: 13vw;
+            transform: rotate(-25deg);
+           
+           
+            
+        }
+        .parallax__item__num111 {
+            font-size: 2rem;
+            width: 30vw;
+            right: 20px;
+            bottom: 20px;
+            display:flex;
+            font-weight: 100;
+            z-index: 100;
+            color:#ffcc00;
+            top:7vw;
+            left:6vw;
+            flex-direction: column;
+            text-align: left;
+            margin-left: 5vw;
+            gap: 0.5vw;
+            margin-bottom: 7vw;
+           
+            
+        }
+        .parallax__item__num1111 {
+           
+            width: 18vw;
+            right: 20px;
+            bottom: 20px;
+            display:flex;
+            font-weight: 100;
+            z-index: 100;
+            color:#ffcc00;
+            top:7vw;
+            left:6vw;
+            flex-direction: column;
+            text-align: left;
+            margin-left: 5vw;
+            gap: 0.5vw;
+            margin-bottom: 7vw;
+           
+            
+        }
+        .setlist{
+        
+            margin-left: 6vw;
+            width: 23vw;
+            margin-left: 70vw;
+            display:none;
+        
+            
+        }
+        .setlist1{
+            margin-left: 6vw;
+            margin-top: 1.5vw;
+            animation: changeColor 5s infinite; 
+            transition: opacity 2s ease-in-out; 
+            display:none;
+            margin-left: 6vw;
+            width: 8vw;
+            margin-left: 78vw;
+        }
+        .setlist_02{
+            
+        
+            display:none;
+            margin-left: 67vw;
+            
+        }
+       
+        .setlist_1{
+            margin-left:4.7vw;
+            display:none;
+        }
+        .setlist_11{
+            margin-left: 13vw;
+            margin-top: 1.5vw;
+            animation: changeColor 5s infinite; 
+            transition: opacity 2s ease-in-out; 
+            display:none;
+        
+        }
+        @keyframes changeColor {
+              0% {
+                opacity: 1;
+              }
+              5% {
+                opacity: 1;
+                content: url('../img/setlist.png');
+              }
+              10% {
+                opacity: 1;
+                content: url('../img/setlist1.png');
+              }
+              15% {
+                opacity: 1;
+                content: url('../img/setlist2.png'); 
+              }
+              20% {
+                opacity: 1;
+                content: url('../img/setlist3.png'); 
+              }
+              25% {
+                opacity: 1;
+                content: url('../img/setlist2.png'); 
+              }
+              30% {
+                opacity: 1;
+                content: url('../img/setlist.png');
+              }
+              35% {
+                opacity: 1;
+                content: url('../img/setlist1.png');
+              }
+              40% {
+                opacity: 1;
+                content: url('../img/setlist2.png'); 
+              }
+              45% {
+                opacity: 1;
+                content: url('../img/setlist3.png'); 
+              }
+              50% {
+                opacity: 1;
+                content: url('../img/setlist2.png'); 
+              }
+              55% {
+                opacity: 1;
+                content: url('../img/setlist.png');
+              }
+              60% {
+                opacity: 1;
+                content: url('../img/setlist1.png');
+              }
+              65% {
+                opacity: 1;
+                content: url('../img/setlist2.png'); 
+              }
+              70% {
+                opacity: 1;
+                content: url('../img/setlist3.png'); 
+              }
+              75% {
+                opacity: 1;
+                content: url('../img/setlist2.png'); 
+              }
+              80% {
+                opacity: 1;
+                content: url('../img/setlist.png');
+              }
+              85% {
+                opacity: 1;
+                content: url('../img/setlist1.png');
+              }
+              90% {
+                opacity: 1;
+                content: url('../img/setlist2.png'); 
+              }
+              95% {
+                opacity: 1;
+                content: url('../img/setlist3.png'); 
+              }
+              0% {
+                opacity: 1;
+                content: url('../img/setlist2.png'); 
+              }
+              
+              
+             
+             
+            }
+        
+        .parallax__item__num111 img{
+            width: 2vw;
+        }
+        .parallax__item__num111 a{
+            font-size: 0.7rem;
+            color:#fff;
+            margin-left:2vw;
+            font-weight: 400;
+            margin-top: 0.2vw;
+            
+        }
+        .parallax__item__num1111 img{
+            width: 2vw;
+        }
+        .parallax__item__num1111 a{
+            font-size: 0.7rem;
+            color:#fff;
+            margin-left:2vw;
+            font-weight: 400;
+            margin-top: 0.2vw;
+            
+        }
+        .setlist_01{
+            display:flex;
+            flex-direction: column;
+        
+            margin-bottom: 5vw;
+        
+        }
+        
+        .setlist_02{
+            display:flex;
+            flex-direction: column;
+            margin-bottom: 5vw;
+           
+        
+        }
+        .setlist_11{
+            width:8vw;
+        }
+        .setlist_1{
+            width: 23vw;
+        }
+        
+        
+        .baekyurin{
+            display:flex;
+        
+        }
+        .baekyurin1{
+            display:flex;
+        
+        }
+        .parallax__item__num111{
+            display:none;
+        }
+        .parallax__item__num1 {
+            font-size: 3rem;
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            font-family: "continuous";
+            font-weight: 100;
+            z-index: 100;
+            color:#ffffff;
+            top: 94vw;
+        left: 12%;
+            transform: rotate(-25deg);
+        }
+        .parallax__item__num2 {
+            font-size: 3rem;
+           
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            font-family: "continuous";
+          
+            z-index: 100;
+            color:#b50000;
+            top: 134vw;
+            left: 10%;
+            transform: rotate(-17deg);
+        }
+        .parallax__item__num3 {
+            font-size: 3rem;
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            font-family: "continuous";
+            font-weight: 100;
+            z-index: 100;
+            color:#ff0000;
+            top: 95vw;
+        left: 13vw;
+            transform: rotate(-25deg);
+        }
+        .parallax__item__num4 {
+            font-size: 2.2rem;
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            font-family: "continuous";
+            font-weight: 100;
+            z-index: 100;
+            color:#dedede;
+          
+            top: 106vw;
+            left: 12vw;
+            transform: rotate(-16deg);
+        
+        }
+        .parallax__item__num5 {
+            font-size: 3rem;
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            font-family: "continuous";
+            font-weight: 100;
+            z-index: 100;
+            color:#f0df26;
+            top: 95vw;
+        left: 15vw;
+            transform: rotate(-25deg);
+        }
+        .parallax__item__num6 {
+            font-size: 3rem;
+            text-align: center;
+            
+            font-family: "continuous";
+            font-weight: 600;
+          
+            color:#000000;
+           
+            
+        }
+        
+        
+        
+        
+        .parallax__item__imgWrap {
+            width: 100%;
+            height: 28vw;
+            padding-bottom: 18%;
+            
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .parallax__item__img {
+            position: absolute;
+           
+        }
+        .parallax__item__img:hover {
+            filter: saturate(100%);
+            transform: scale(1.025);
+        }
+        #section1{
+            background-color:#f9a825;
+        }
+        #section1 .parallax__item__img {
+           background: url(img2/panta18.jpg);
+           background-size: cover;  
+           
+           background-repeat: no-repeat; 
+           height: 70vh; 
+           width: 90vw;
+           left: 4%;
+           top:12%;
+        }
+        #section2 .parallax__item__img {
+            background: url(img2/pantakim.png);
+            background-size: cover;  
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 70vh; 
+            width: 90vw;
+            left: 4%;
+            top:12%;
+        }
+        #section3 .parallax__item__img {
+            background: url(img2/pantafomantic.jpg);
+            background-size: cover;  
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 70vh; 
+           width: 90vw;
+           left: 4%;
+           top:12%;
+        }
+        #section4 .parallax__item__img {
+            background: url(img2/pantasesoseon.jpg);
+            background-size: cover;  
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 70vh; 
+           width: 90vw;
+           left: 4%;
+           top:12%;
+        }
+        #section55 .parallax__item__img {
+            background: url(../img1/lee.jpg_large);
+            background-size: cover;  
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 70vh; 
+           width: 90vw;
+           left: 4%;
+           top:12%;
+        }
+        #section6 .parallax__item__img {
+            background: url(../img1/jang.jpg);
+            background-size: cover;  
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 70vh; 
+            width: 90vw;
+            left: 4%;
+            top:12%;
+        }
+        #section7 .parallax__item__img {
+          
+            background-size: cover;  
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 100vh; 
+            width:100%;
+            left:50%;
+            top:50%;
+        }
+        .rotating-image {
+            width: 9vw;  
+            animation: rotate 2s linear infinite; 
+            margin-bottom: 3vw;
+            margin-left: 2vw; 
+        }
+        
+        .rotating-image1{
+            width: 2vw;  
+            animation: rotate 2s linear infinite; 
+          
+            margin-left: 2vw; 
+        }
+        .rotating-image3{
+            width: 43vw;  
+            animation: rotate 2s linear infinite; 
+            width: 7vw;
+
+            
+        }
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg); 
+            }
+            100% {
+                transform: rotate(360deg); 
+            }
+        }
+        .section7_type1{
+            display:flex;
+            align-items: flex-end;
+            margin-bottom: 2vw;
+            margin-left: 2vw;
+        }
+        
+        
+        
+        
+        
+        
+        #section1{
+            background-color:#f92525;   
+        }
+        #section2{
+            background-color: #ce1a1a;
+        }
+        #section3{
+            background-color: #f92525; 
+        }
+        #section4{
+            background-color: #a50000;
+        }
+        #section55{
+            background-color: #303030;
+        }
+        #section6{
+            background-color: #ce1a1a;
+        }
+        
+        
+        /* option */
+        #parallax__cont {
+            overscroll-behavior: none;
+            width: 900%;
+            height: 100vh;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        
+        
+        
+       
+        
+        /*자동슬라이드*/
+        
+        .slider-container {
+            position: relative;
+            width: 100%; 
+            height: 150vw;
+            background:url(../img/PENTAPORT11_1.png-mobile.png);
+            
+        }
+            
+        
+        
+        .slider {
+            display: flex;
+            transition: transform 1s ease-in-out;
+        }
+        
+        
+        
+        /*글씨 세로로 네개 나오기*/
+        .parallax__item__num1111{
+            display:none;
+        }
+        
+        
+        
+        
+       
+          .text_intro{
+           
+            background: linear-gradient(45deg, #ff0000, #4b00ff); /* 어두운 회색 그라데이션 */
+            display: flex;
+            flex-direction: column; /* 세로로 정렬 */
+            justify-content: center;
+            align-items: center;
+            padding:20vw;
+            margin: 0;
+           
+          }
+          .text_intro_type{
+            
+          }
+          .star{
+            color:#f9a825;
+          }
+          
+        
+        
+        
+        /* 각 슬라이드 */
+        .slide {
+            width: 300px; 
+            height: 350px; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            
+        }
+        
+        /* 슬라이드에 포함된 이미지 스타일 */
+        .slide img {
+           
+            overflow: hidden; 
+        
+            object-fit: cover; 
+        }
+        .slide video{
+            width: 35vw;
+            margin-top: 64.5vw;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        #section222 .parallax__item__img222 {
+            background-image: url(assets/img/images15.jpg);
+        }
+         /* parallax__cont */
+         #parallax__cont222 {
+            overflow: hidden;
+        }
+        .parallax__item222 {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #section222, 
+        #section4222, 
+        #section6222, 
+        #section8222 {
+            background-color: #222;
+        }
+        .parallax__item__num222 {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            font-size: 5vw;
+            line-height: 1;
+        }
+        .parallax__item__img222 {
+            width: 10vw;
+            height: 10vw;
+            margin: 1vw;
+            background-color: #fff;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        #section12  .i13 {
+            background-image: url(img2/panta04.jpg);
+        }
+        #section12  .i23 {
+            background-image: url(img2/panta05.jpg);
+        }
+        
+        #section12  .i33 {
+            background-image: url(img2/panta06.jpg);
+        }
+        
+        #section12  .i43 {
+            background-image: url(img2/panta07.heic);
+        }
+        
+        #section12  .i53 {
+            background-image: url(img2/panta08.heic);
+        }
+        #section12  .i63 {
+            background-image: url(img2/pnata10.jpg);
+        }
+        
+        
+        
+        
+        
+          /* parallax__cont */
+          #parallax__cont3 {
+            overflow: hidden;
+        }
+        
+        #section12 
+         
+         
+         {
+            background-color: #ffb400;
+            margin-top: 14vw;
+        
+        }
+       
+        .parallax__item__img3 {
+            width: 49.3vw;
+            height: 52vw;
+            
+            background-color: #fff;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        
+        
+        
+        
+        
+        
+        /*텍스트 애니메이션*/
+        
+        .pin-spacer{
+            margin:none;
+        }
+        #section57 {
+            flex-direction: column;
+            height: 60vw;
+        }
+        #section57 .parallax__item__img {
+            background-image: url(assets/img/images05.jpg);
+        }
+        
+        .parallax__item7 {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .t17{
+            color:#4b4b4b;
+            font-size:1.2rem;
+            font-weight: 600;
+            font-family: "continuous";
+        }
+        .t27{
+            color:#222;
+            font-size:1.5rem;
+            font-weight:800;
+        
+        }
+        
+        .t37{
+            color:#222;
+            font-size:1.5rem;
+            font-weight: 800;
+            
+        }
+        
+        .t47{
+            color:#ff0000;
+            font-size:3rem;
+            font-weight: 800;
+            font-family: "continuous";
+            margin-top:1vw;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        /*펜타포트 푸터*/
+        .pantaport_footer{
+            width:100%;
+            height: 15vw;
+            background:#ffb400;}
+        
+        
+        
+        
+        .custom_section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          
+            padding: 20px;
+            align-items: flex-start;
+            margin-top:2vw;
+            margin-bottom:2vw;
+            
+        }
+        
+        
+        
+        
+        
+        /* 푸터 전체 컨테이너 */
+        footer {
+            background-color: #1f1f1f; 
+            color: #fff; 
+            
+            font-size: 1rem;
+            text-align: center;
+        }
+        
+        
+        .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-bottom: 1vw;
+            flex-direction: column
+        }
+        .company-name{
+            display:none;
+        }
+        
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            width: 19%;
+            margin-bottom: 20px;
+            margin-left: 4vw;
+        }
+        
+        .footer-logo img {
+            max-width: 5vw;
+            margin-left: 9vw;
+            margin-left: 44vw;
+            margin-top: 4vw;
+        
+            
+        }
+        
+        .footer-logo .company-name {
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        /* 주요 링크 스타일 */
+        .footer-links h4,
+        .footer-social h4,
+        .footer-contact h4 {
+            font-size: 0.8rem;
+            
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .footer-social img{
+            width:6vw;
+        }
+        .footer-links ul,
+        .footer-social ul,
+        .footer-contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .fixed-foote p{
+            font-size: 0.7rem;
+        }
+        
+        
+        .footer-links ul li a,
+        .footer-social ul li a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s;
+            font-size: 2.1vw;
+        }
+        
+        .footer-links ul li a:hover,
+        .footer-social ul li a:hover {
+            color: #f9a825; 
+        }
+        .footer-xocial{
+            margin-top: 4vw;
+        }
+        
+        .footer-social ul {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 4vw;
+        }
+        
+        .footer-social ul li a {
+            display: inline-block;
+            padding: 2px;
+            border-radius: 50%;
+            background-color: #333;
+            transition: background-color 0.3s;
+        }
+        
+        .footer-social ul li a:hover {
+            background-color: #f9a825;
+        }
+        
+        
+        .footer-contact ul li {
+            font-size: 0.7rem;
+        }
+        .footer-contact{
+            margin-top: 4vw;
+}
+        
+        
+        .footer-bottom {
+            text-align: center;
+            padding: 1vw;
+            background-color: #333;
+            margin-top: 5vw;
+        }
+        
+        .fixed-footer p {
+            margin: 0;
+            font-size: 0.6rem;
+            background:#ff0000;
+        }
+        .footer-bottom p{
+            font-size: 0.8rem;
+        }
+        
+        /* 반응형 디자인 
+        @media (max-width: 768px) {
+            .footer-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .footer-logo,
+            .footer-links,
+            .footer-social,
+            .footer-contact {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        
+            .footer-logo {
+                margin-bottom: 30px;
+            }
+        
+            .footer-social ul {
+                justify-content: center;
+            }
+        }*/
+        
+        
+        /* Box styling */
+        .custom_box_1, .custom_box_2 {
+            width: 75vw;
+            height: 25vw;
+            background-color: #fab314;
+            margin: 20px 0;
+            opacity: 0; 
+            transform: translateY(50px); 
+            transition: opacity 1s ease-out, transform 1s ease-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            position: relative;
+            
+        }
+        .custom_box_2{
+            margin-left: 22vw;
+            margin-top:5vw;
+        }
+        .artist01{
+            width:25%;
+            margin-left:20vw;
+            top:0;
+            left:0;
+        }
+        
+        /* Image styling */
+        .custom_img_1, .custom_img_2 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+        }
+        
+        .custom_box_1.visible, .custom_box_2.visible {
+            opacity: 1;
+            transform: translateY(0); 
+        }
+        
+        @keyframes slideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        
+        .custom_box_1.visible {
+            animation: slideUp 3s forwards;
+        }
+        
+        .custom_box_2.visible {
+            animation: slideUp 3s forwards;
+            animation-delay: 0.5s; 
+        }
+        
+    
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /**/
+        #section5 {
+            flex-direction: column;
+        }
+        #section5 .parallax__item__text,
+        #section6 .parallax__item__text {
+            font-size: 5vw;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        #parallax__cont4 {
+            overflow: hidden;
+        }
+        .parallax__item4 {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /*아티스트영상*/
+        
+        .panta_top,.panta_bottom{
+            display:flex;
+            flex-direction: column;
+        
+        }
+        .panta_video_02{
+            width:100vw;
+        }
+        .video_p{
+            position: absolute;
+            top:0;
+            left:50%;
+            color:#fff;
+            margin-top:2vw;
+        }
+        
+        
+        /*마지막인트로*/
+        
+        #section99,.pin-spacer{
+            display:none;
+        }
+        .parallax__item__num91 img{
+            width: 4vw;
+        height: 4.3vw;
+        margin-top: 1vw;
+    margin-right: 0.5vw;
+        }
+        .parallax__item__num91 p{
+            font-size: 1.3rem;
+            color:#000;
+            font-weight: 700;
+        }
+        #section991{
+            width:100%;
+            height: 50vw;
+        }
+        .parallax__item__num91{
+            display:flex;
+            margin-top: 34vw;
+            justify-content: center;
+        }
+     
+        
+        
+        /*box*/
+        /* 메뉴 버튼*/
+        .menu-toggle {
+            position: fixed;
+            right: -14px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 37px;
+            height: 200px;
+           
+            cursor: pointer;
+            z-index: 10000;
+            border-radius: 5px;
+            transition: opacity 0.3s; 
+        }
+        
+        .menu-toggle:active {
+            opacity: 0.8; /* 클릭 시 흐리게 */
+        }
+        
+        .menu-button {
+            width: 25%;
+            height: 98%;
+            background-color: #ff0000;
+            border-radius: 5px;
+            margin-left: 3.5vw;
+        
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /*네비 nav*/
+        .drawer-nav {
+            position: fixed;
+            top: 0;
+            right: -100vw; 
+            width: 100%;
+            height: 100%;
+            background-color: #564c39;
+            transition: right 0.3s ease;
+            z-index: 9999;
+        }
+        
+        .slider_type{
+            margin-left:50vw;
+        }
+        
+        
+        .drawer-nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 47vw;
+            text-align: center;
+        }
+        
+        .drawer-nav ul li {
+            margin: 20px 0;
+        }
+        
+        .drawer-nav ul li a {
+            display: block;
+            font-family: 'continuous';
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 100;
+        }
+        
+        /* 네비open */
+        .drawer-nav.open {
+            right: 0;
+        }
+        /* top 버튼 */
+        .scroll-top {
+           
+                position: fixed;
+                bottom: 30px;
+                right: 11px;
+                background-color: #8b876e;
+                color: white;
+                border: none;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                font-size: 1.5rem;
+                display: none;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                z-index: 1000;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            
+        }
+        
+        .scroll-top:hover {
+            background-color: #555;
+        }
+        
+        
+        .menu_button_type{
+            color:#fff;
+            font-size:2rem;
+            font-weight:300 ;
+            text-align: center;
+            margin-left:0.5vw;
+           
+        }
+        .menu_button_type:hover{
+            color:#fab314;
+        }
+        
+        
+
+        .panta_video_01,.panta_video_02{
+            width:93vw;
+            margin-left: 1.5vw;
+        }
+        .parallax__item__num9 img{
+            width: 5vw;
+            margin-top: 1vw;
+            margin-right: 2vw;
+        }
+        .panta_video2{
+            background:#000;
+        }
+   #section57,.panta_video,.text444{
+    display:none;
+}
+    .footer_links{
+        margin: 0 auto;
+    text-align: center;
+    }
+
+    .text {
+        font-size: 0.95rem;
+        color: white;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        margin: 10px 0;
+      }
+  
+      .show {
+        opacity: 1;
+      }
+  
+
+
+      .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; 
+        text-align: center;
+      }
+  
+      .text0 {
+        font-size: 3rem;
+        color: white;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        margin: 10px 0;
+      }
+  
+      .show {
+        opacity: 1;
+      }
+
+   
+   
+}
+
+
+
+
+
