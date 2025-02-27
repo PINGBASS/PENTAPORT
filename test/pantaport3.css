@@ -1517,7 +1517,7 @@ footer {
 .video-background2{
     display:none;
 }
-.mobile_top,.mobile_nav,.video-backgroune2,.panta_video2,.parallax__item91,.text_1,.text0,.test-container{
+.mobile_top,.mobile_slider,.mobile_nav,.video-backgroune2,.panta_video2,.parallax__item91,.text_1,.text0,.test-container{
     display: none;
 }
 
@@ -3102,7 +3102,7 @@ footer {
         display:none;
     }
     .parallax{display:none;}
-    .test-container{display:none;}
+    .test-container,.mobile_slider{display:none;}
     
 
 
@@ -3848,13 +3848,17 @@ footer {
        
         
         /*자동슬라이드*/
-        
+        .mibile_slider{
+
+        }
         .slider-container {
             position: relative;
             width: 100%; 
-            height: 150vw;
+            height: 100vh;
             background:url(../img/PENTAPORT11_1.png-mobile.png);
-            
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
             
         
@@ -3912,8 +3916,8 @@ footer {
             object-fit: cover; 
         }
         .slide video{
-            width: 58vw;
-            margin-top: 64.5vw;
+            width: 73vw;
+            
         }
         
         
@@ -4382,36 +4386,42 @@ footer {
             display:none;
         }
         .parallax__item__num91 img{
-            width: 4.2vw;
-        height: 4.6vw;
-        margin-top: 6.4vw;
-        margin-right: 0.5vw;
+            width: 8.2vw;
+            height: 8.6vw;
+            margin-top: 10.1vw;
+        margin-right: 1.5vw;
+    
         }
         .parallax__item__num91 p{
-            font-size: 1.3rem;
+            font-size: 3.3rem;
             color:#000;
             font-weight: 700;
         }
         #section991{
             width:100%;
-            height: 65vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .parallax__item__num91{
             display:flex;
-            margin-top: 35vw;
+            
             justify-content: center;
         }
      
-        
+      .slider-container{
+        display: none;
+      }
         
         /*box*/
         /* 메뉴 버튼*/
         .menu-toggle {
             position: fixed;
-            right: -14px;
+            right: -18px;
             top: 50%;
             transform: translateY(-50%);
-            width: 37px;
+            width: 50px;
             height: 200px;
            
             cursor: pointer;
@@ -4460,13 +4470,19 @@ footer {
         
         .drawer-nav ul {
             list-style: none;
-            padding: 0;
-            margin-top: 47vw;
-            text-align: center;
-        }
+        padding: 0;
+        margin-top: 47vw;
+        text-align: center;
+        display: flex
+;
+        flex-direction: column;
+        align-items: center;
+    }
+        
         
         .drawer-nav ul li {
             margin: 20px 0;
+            width: 50%;
         }
         
         .drawer-nav ul li a {
