@@ -3035,6 +3035,9 @@ footer {
     }
     .parallax{display:none;}
     .test-container,.mobile_slider{display:none;}
+
+}
+    
     @media screen and  (min-width:320px) and (max-width:767px){
         /*layout style*/
         .desk-top{display:none;}
@@ -4510,7 +4513,6 @@ footer {
    
    
 }
-
 
 
 
