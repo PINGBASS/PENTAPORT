@@ -3036,10 +3036,10 @@ footer {
     .parallax{display:none;}
     .test-container,.mobile_slider{display:none;}
 
+
 }
-    
     @media screen and  (min-width:320px) and (max-width:767px){
-        /*layout style*/
+      
         .desk-top{display:none;}
         .text-container {
             display: flex;
@@ -3071,7 +3071,7 @@ footer {
             height: 100vh;
         }
         .test {
-            font-size: 1rem;
+            font-size: 0.9rem;
             color: #ffffff;
             opacity: 0;
             transition: opacity 1s ease-in-out;
@@ -3276,7 +3276,7 @@ footer {
         
           /* parallax__cont */
         .parallax__item {
-            width: 80vh;
+            width: 100vw;
             height: 100vh;
             position: relative;
             display: flex;
@@ -3630,7 +3630,7 @@ footer {
            background-position: center;
            background-repeat: no-repeat; 
   
-           width: 122vw;
+           width: 130vw;
   
            top:12%;
         }
@@ -3639,7 +3639,7 @@ footer {
             background-size: cover;  
             background-position: center; 
             background-repeat: no-repeat; 
-            height: 78%;
+            height: 83%;
             width: 100%;
             
             top:12%;
@@ -3650,7 +3650,7 @@ footer {
             background-position: center; 
             background-repeat: no-repeat; 
      
-            width: 122vw;
+            width: 130vw;
        
            top:12%;
         }
@@ -3659,20 +3659,17 @@ footer {
             background-size: cover;  
             background-position: center; 
             background-repeat: no-repeat; 
-     
-            width: 121vw;
+            width: 125vw;
             margin-top: 10.9vw;
     
-       
-           
         }
         #section4 .parallax__item__img {
             background: url(img2/pantasesoseon.jpg);
             background-size: cover;  
             background-position: center; 
             background-repeat: no-repeat; 
-            
-            left: 4%;
+            width: 129vw;
+        top: 10.5vw;
         }
         #section55 .parallax__item__img {
             background: url(../img1/lee.jpg);
@@ -3680,17 +3677,17 @@ footer {
             background-position: center; 
             background-repeat: no-repeat; 
          
-            width: 102vw;
+            width: 109vw;
             top: 11vw;
         }
-        }
+        
         #section6 .parallax__item__img {
             background: url(../img1/jang.jpg);
             background-size: cover;  
             background-position: center; 
             background-repeat: no-repeat; 
           
-            width: 102.5vw;
+            width: 108.5vw;
       
             top:12%;
         }
@@ -4398,13 +4395,13 @@ footer {
         }
         .t47{
             color: #ff0000;
-            font-size: 6rem;
+            font-size: 5rem;
             font-weight: 800;
             font-family: "continuous";
             margin-top: 1vw;
             position: absolute;
             top: 78vw;
-            left: 21vw;
+            left: 20vw;
         }
         
         .drawer-nav ul {
@@ -4534,6 +4531,6 @@ footer {
    
 }
 
-
+}
 
 
