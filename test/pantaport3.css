@@ -3276,7 +3276,7 @@ footer {
         
           /* parallax__cont */
         .parallax__item {
-            width: 100%;
+            width: 80vh;
             height: 100vh;
             position: relative;
             display: flex;
@@ -3292,7 +3292,7 @@ footer {
             font-weight: 100;
             z-index: 100;
             color:#ffcc00;
-            top: 69vw;
+            top: 67vw;
             left: 2vw;
             
            
@@ -3529,7 +3529,7 @@ footer {
             font-weight: 100;
             z-index: 100;
             color:#ffffff;
-            top: 83%;
+            top: 73%;
             left: 3%;
            
         }
@@ -3630,7 +3630,7 @@ footer {
            background-position: center;
            background-repeat: no-repeat; 
   
-           width: 100%;
+           width: 122vw;
   
            top:12%;
         }
@@ -3650,19 +3650,29 @@ footer {
             background-position: center; 
             background-repeat: no-repeat; 
      
-            width: 100%;
+            width: 122vw;
        
            top:12%;
+        }
+        .parallax__item__img1{
+            background: url(img2/pantafomantic.jpg);
+            background-size: cover;  
+            background-position: center; 
+            background-repeat: no-repeat; 
+     
+            width: 121vw;
+            margin-top: 10.9vw;
+    
+       
+           
         }
         #section4 .parallax__item__img {
             background: url(img2/pantasesoseon.jpg);
             background-size: cover;  
             background-position: center; 
             background-repeat: no-repeat; 
-       
-            width: 81%;
-        
-           top:12%;
+            
+            left: 4%;
         }
         #section55 .parallax__item__img {
             background: url(../img1/lee.jpg);
@@ -3670,9 +3680,9 @@ footer {
             background-position: center; 
             background-repeat: no-repeat; 
          
-            width: 100%;
-   
-           top:12%;
+            width: 102vw;
+            top: 11vw;
+        }
         }
         #section6 .parallax__item__img {
             background: url(../img1/jang.jpg);
@@ -3680,7 +3690,7 @@ footer {
             background-position: center; 
             background-repeat: no-repeat; 
           
-            width: 100%;
+            width: 102.5vw;
       
             top:12%;
         }
@@ -3787,8 +3797,7 @@ footer {
             display: flex;
             transition: transform 1s ease-in-out;
         }
-        
-        
+    
         
         /*글씨 세로로 네개 나오기*/
         .parallax__item__num1111{
@@ -3989,14 +3998,7 @@ footer {
             
         }
         
-        .t47{
-            color:#ff0000;
-            font-size:3rem;
-            font-weight: 800;
-            font-family: "continuous";
-            margin-top:1vw;
-        }
-        
+       
         
         
         
@@ -4387,7 +4389,23 @@ footer {
         .slider_type{
             margin-left:50vw;
         }
-        
+        .slide2{
+            position: relative;
+        }
+        .mobile_slide2{
+           width:102vw;
+
+        }
+        .t47{
+            color: #ff0000;
+            font-size: 6rem;
+            font-weight: 800;
+            font-family: "continuous";
+            margin-top: 1vw;
+            position: absolute;
+            top: 78vw;
+            left: 21vw;
+        }
         
         .drawer-nav ul {
             list-style: none;
@@ -4497,6 +4515,7 @@ footer {
         align-items: center;
         height: 100vh; 
         text-align: center;
+        display:none;
       }
   
       .text0 {
