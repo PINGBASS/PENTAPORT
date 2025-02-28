@@ -132,3 +132,6 @@ dist
 
 # 백유진 커스텀
 .origin
+
+# Ignore deskvideo.mp4 file
+img1/deskvideo.mp4
